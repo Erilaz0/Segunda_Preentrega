@@ -1,0 +1,454 @@
+body{margin:0;
+     height: 1500px;}
+
+header{background-color: #FFE39D;
+	    width:1366px;
+	    height: 70px;
+	    position: fixed;
+        z-index: 1;}
+
+/*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*/
+
+nav{background-color: #FFEEC4;
+     width: 1366px;
+     height: 40px;
+     margin-top: 70px;
+     position: fixed;
+     z-index: 1;
+     text-decoration: none;}
+
+
+.nav_cont{list-style: none;
+          height:30px;
+         
+
+          
+}
+
+a{text-decoration: none;}
+
+.nav_cont li {text-decoration: none;
+               display: inline-block;
+               color: #000000;
+}
+
+
+.barra_div{margin-left: 400px;
+           width: 1000px;  
+
+
+         }
+
+.barra{margin-left: 8px;
+       text-decoration: none;}      
+
+
+.logo{height: 50px;
+      width: 70px;
+      border-radius: 50%;
+      margin-left: 650px;
+      margin-top: 10px;}
+
+
+/*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*/
+
+
+
+
+
+
+/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/ 
+/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
+
+
+
+#article_index{margin-top: 150px;
+	     margin-left: 240px;
+	     background-color: #D5FDB3;
+	     position: absolute;
+         width: 900px;
+         height:900px;
+         border: 1px solid #000000;}
+
+.eolica{width:200px; 
+        height:200px;
+        margin-left: 50px;
+        margin-top: 90px;
+        position: absolute;}
+
+
+.eolica_info{height: 200px;
+             width: 570px;
+             margin-left: 290px;
+             margin-top: 90px;
+             background-color: #FBF7FA;
+             position: absolute;
+             text-align: center;
+             font-size: 15px;
+             border: 1px solid #000000;}
+
+.solar{height: 200px;
+       width: 200px;
+       margin-top: 350px;
+       margin-left: 660px;
+       position: absolute;}
+
+.solar_info{height: 200px;
+            width: 570px;
+            margin-top: 350px;
+            text-align: center;
+            font-size: 15px;
+            position: absolute;
+            margin-left: 50px;
+            background-color: #FBF7FA;
+            border: 1px solid #000000;}
+
+.hidraulica{height: 200px;
+            width: 200px;
+            margin-top: 650px;
+            margin-left: 50px;
+            position: absolute;}
+
+
+.hidraulica_info{height: 200px;
+            width: 570px;
+            margin-top: 650px;
+            text-align: center;
+            font-size: 15px;
+            position: absolute;
+            margin-left: 290px;
+            background-color: #FBF7FA;
+            border: 1px solid #000000;}
+
+
+/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
+/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
+
+
+
+
+
+
+
+/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+
+ #section_cont{margin-top: 150px;
+          margin-left: 240px;
+          background-color: #D5FDB3;
+          position: absolute;
+          width: 900px;
+          height:1300px;
+          border: 1px solid #000000;}
+
+.cont{height: 540px;
+      width: 250px;
+      background-color: #FFF3FC;
+      margin-top: 30px;
+      margin-left: 20px;
+      border:1px solid #000000;
+      position: absolute;}
+
+.cont_info{text-align: center;
+           margin:4px;
+           position: absolute;}
+
+
+.cont_type_div{background-color: #FEE3C9;
+               height: 1245px;
+               width: 550px;
+               margin-left: 300px;
+               position: absolute;
+               margin-top: 30px;}
+
+
+.cont_type{ background-color: #FFF3FC;
+            height: 180px;
+            width: 510px;
+            margin: 20px;
+            border:1px solid #000000;}
+
+
+.onu_decl{
+      height: 645px;
+      width: 250px;
+      background-color: #FFF3FC;
+      margin-top: 628px;
+      margin-left: 20px;
+      border:1px solid #000000;
+      position: absolute;
+      font-size: 14px;}
+
+/* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */
+/* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */
+
+.cont_type img{height: 180px;
+               width: 150px;
+               margin-left: 360px;
+               position: absolute;}
+
+.cont_text{width: 350px;
+          height: 180px;
+          font-size: 14px;
+          position: absolute;
+          margin-left: 4px;}
+
+/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+
+
+
+
+
+
+
+
+
+
+/* metodos de reciclaje */ /* metodos de reciclaje */ /* metodos de reciclaje */ /* metodos de reciclaje */ 
+/* metodos de reciclaje */ /* metodos de reciclaje */ /* metodos de reciclaje */ /* metodos de reciclaje */ 
+
+
+
+
+
+
+#rec_cont{margin-top: 150px;
+       margin-left: 240px;
+       background-color: #D5FDB3;
+       position: absolute;
+         width: 900px;
+         height:1100px;
+         border: 1px solid #000000;}
+
+
+
+.rec_info{height: 160px;
+            width: 800px;
+            margin-top: 30px;
+            text-align: center;
+            font-size: 15px;
+            position: absolute;
+            margin-left: 50px;
+            background-color: #FBF7FA;
+            border: 1px solid #000000;}
+
+
+.img_rec{height: 200px;
+         width: 200px;
+         position:absolute;}
+
+.pilas{margin-top: 300px;
+       margin-left: 50px;}
+
+.pilas_title{position: absolute;
+            margin-top: 505px;
+            margin-left: 95px;}
+
+.plastico{margin-top: 300px;
+          margin-left: 350px;}
+
+.plastico_title{position: absolute;
+            margin-top: 505px;
+            margin-left: 385px;}
+
+.ropa{margin-top: 300px;
+      margin-left: 650px;}
+
+.ropa_title{position: absolute;
+            margin-top: 505px;
+            margin-left: 690px;}
+
+
+.vidrio{margin-top: 700px;
+        margin-left:50px;}
+
+.vidrio_title{margin-top: 905px;
+              margin-left: 89px;
+              position: absolute;}
+
+.tapas{margin-top: 700px;
+       margin-left: 350px;}
+
+.tapas_title{margin-left: 389px;
+             margin-top: 905px;
+             position: absolute;}
+
+.cigarro{margin-left: 650px;
+          margin-top: 700px;}
+
+.cigarro_title{margin-top: 905px;
+               margin-left: 684px;
+               position:absolute;}
+
+
+
+/* metodos de reciclaje */ /* metodos de reciclaje */ /* metodos de reciclaje */ /* metodos de reciclaje */ 
+/* metodos de reciclaje */ /* metodos de reciclaje */ /* metodos de reciclaje */ /* metodos de reciclaje */ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/
+/*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/
+
+
+
+.form{margin-top: 60px;
+      position: absolute;
+      height: 400px;}
+
+.form_cont{height: 450px;
+           width: 700px;
+           background-color:#D5FDB3;
+           margin-left: 350px;
+           margin-top: 170px;
+           position: absolute;
+           display: inline;
+           border-radius: 3%;
+           border:1px solid #000000;}
+
+.form_input{width:300px;
+            margin:17px;} 
+
+#inp{margin:5px;     /*contenedor de inputs individuales*/
+     width: 400px;}
+
+/*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+.text{margin-top: 10px}
+
+.date{margin-top: 20px;}
+
+.email{margin-top: 30px;}
+
+.pass{margin-top: 40px;}
+
+.button{margin-top: 5px;}
+
+/*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+.form_button{width: 100px;
+             margin-left: 125px;}
+
+
+
+
+     
+
+
+.form_logo{position: absolute;
+           margin-left: 390px;
+           height: 230px;
+           width: 280px;
+           border-radius: 50%;
+           margin-top: 37px;}
+
+
+
+
+
+/*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/           
+/*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/
+
+
+
+
+
+
+
+
+
+/*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
+/*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
+
+
+
+
+
+
+#section_org{height: 800px;
+         width: 1000px;
+         position: absolute;
+         background-color: #D5FDB3;
+         margin-left: 200px;
+         margin-top: 150px;}
+
+/*greenpaeace*/  /*greenpaeace*/ /*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*/ 
+
+.green{width: 250px;
+     height: 730px;
+     position: absolute;
+    background-color: #FFF5DD;
+     margin: 40px;}
+
+.green_text{margin-top:195px;
+            text-align: center;}
+
+
+
+
+/*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*/
+
+
+/*natura*/   /*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*/
+
+.natura{width: 250px;
+     height: 730px;
+     position: absolute;
+   background-color: #FFF5DD;
+     margin-left:370px;
+     margin-top: 40px;}
+
+.natura_text{margin-top:195px; 
+             text-align: center;}
+
+/*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*/
+
+/*wwf*//*wwf*/ /*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*/
+
+.wwf{width: 250px;
+     height: 730px;
+     position: absolute;
+     background-color: #FFF5DD;
+     margin-left:700px;
+     margin-top: 40px}
+     
+.wwf_text{margin-top: 195px;
+          text-align: center;}
+
+/*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*/
+
+
+.org_img{position: absolute;
+         width: 250px;
+         height: 190px;}
+
+
+
+/*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
+/*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
+
+
+footer{background-color:#445;
+       position: absolute;
+       margin-top:1500px;
+       height: 50px;
+       width: 1366px;}
+
+
+.footer_div li{text-decoration: none;
+               display: inline-block;
+               color: #000000;
+               margin-left: 270px;
+               font-size: 13px;
+             }
