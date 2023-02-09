@@ -1,0 +1,596 @@
+
+body{margin:0;
+     height: 100%;
+     
+     
+}
+
+
+/*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*/
+
+
+
+.barra_div{padding: 0;
+          width: 100%;
+          height: 38px; 
+          position: absolute;
+         
+          background-color: #4A4949;
+     }
+
+.nav_cont{list-style: none;
+          position: absolute;     
+          z-index:-1;
+          background-color: #696868;
+          margin-top: -139px;
+          margin-left: 20px;
+          padding: 0%;
+          height: 120px;
+          width: 170px;
+          transition-duration: 2s , 2s;
+     }
+
+a{text-decoration: none;
+  color: #D5FDB3;
+}
+
+.barra_div:hover > .nav_cont{margin-top: 38px;}
+
+
+.barra:hover{background-color: #7B7B7B;}
+
+.a{padding-right:26px ; padding-left: 3px;}
+.b{padding-right:62px ;padding-left:3px;}
+.c{padding-right:110px ;padding-left:3px;}
+.d{padding-right:142px ;padding-left:3px;}
+.e{padding-right:81px ;padding-left:3px;}
+
+
+.icono{width: 20px;
+     height: 20px;
+     margin-left: 25px;
+     margin-top: 6px;
+
+}
+
+
+
+/*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*/
+
+
+
+
+
+
+/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/ 
+/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
+
+
+
+#article_index{margin-top: 150px;
+	          margin-left: 240px;
+	          background-color: #D5FDB3;
+	          position: absolute;
+               width: 900px;
+               height:900px;
+               border: 1px solid #000000;}
+
+.eolica{width:200px; 
+        height:200px;
+        margin-left: 50px;
+        margin-top: 90px;
+        position: absolute;}
+
+
+.eolica_info{height: 200px;
+             width: 570px;
+             margin-left: 290px;
+             margin-top: 90px;
+             background-color: #FBF7FA;
+             position: absolute;
+             text-align: center;
+             font-size: 15px;
+             border: 1px solid #000000;}
+
+.solar{height: 200px;
+       width: 200px;
+       margin-top: 350px;
+       margin-left: 660px;
+       position: absolute;}
+
+.solar_info{height: 200px;
+            width: 570px;
+            margin-top: 350px;
+            text-align: center;
+            font-size: 15px;
+            position: absolute;
+            margin-left: 50px;
+            background-color: #FBF7FA;
+            border: 1px solid #000000;}
+
+.hidraulica{height: 200px;
+            width: 200px;
+            margin-top: 650px;
+            margin-left: 50px;
+            position: absolute;}
+
+
+.hidraulica_info{height: 200px;
+            width: 570px;
+            margin-top: 650px;
+            text-align: center;
+            font-size: 15px;
+            position: absolute;
+            margin-left: 290px;
+            background-color: #FBF7FA;
+            border: 1px solid #000000;}
+
+
+/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
+/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
+
+
+
+
+
+
+
+/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+
+ #section_cont{margin-top: 150px;
+          margin-left: 240px;
+          background-color: #D5FDB3;
+          position: absolute;
+          width: 900px;
+          height:1300px;
+          border: 1px solid #000000;}
+
+.cont{height: 540px;
+      width: 250px;
+      background-color: #FFF3FC;
+      margin-top: 30px;
+      margin-left: 20px;
+      border:1px solid #000000;
+      position: absolute;}
+
+.cont_info{text-align: center;
+           margin:4px;
+           position: absolute;
+           font-size: 12px;
+          }
+
+
+.cont_type_div{background-color: #FEE3C9;
+               height: 1245px;
+               width: 550px;
+               margin-left: 300px;
+               position: absolute;
+               margin-top: 30px;}
+
+
+.cont_type{ background-color: #FFF3FC;
+            height: 180px;
+            width: 510px;
+            margin: 20px;
+            border:1px solid #000000;}
+
+
+.onu_decl{
+      height: 645px;
+      width: 250px;
+      background-color: #FFF3FC;
+      margin-top: 628px;
+      margin-left: 20px;
+      border:1px solid #000000;
+      position: absolute;
+      font-size: 12px;}
+
+/* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */
+/* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */
+
+.cont_type img{height: 180px;
+               width: 150px;
+               margin-left: 360px;
+               position: absolute;}
+
+.cont_text{width: 350px;
+          height: 180px;
+          font-size: 12px;
+          position: absolute;
+          margin-left: 4px;}
+
+/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/
+/*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/
+
+
+
+.form{margin-top: 60px;
+      position: absolute;
+      height: 400px;}
+
+.form_cont{height: 450px;
+           width: 700px;
+           background-color:#D5FDB3;
+           margin-left: 350px;
+           margin-top: 170px;
+           position: absolute;
+           display: inline;
+           border-radius: 3%;
+           border:1px solid #000000;}
+
+.form_input{width:300px;
+            margin:17px;} 
+
+#inp{margin:5px;     /*contenedor de inputs individuales*/
+     width: 400px;}
+
+/*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+
+.date{margin-top: 5px;}
+
+.email{margin-top: 10px;}
+
+.pass{margin-top: 15px;}
+
+.button{margin-top: 5px;}
+
+/*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+.form_button{width: 100px;
+             margin-left: 125px;}
+
+
+
+
+     
+
+
+.form_logo{position: absolute;
+           margin-left: 390px;
+           height: 230px;
+           width: 280px;
+           border-radius: 50%;
+           margin-top: 37px;}
+
+
+
+
+
+/*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/           
+/*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/
+
+
+
+
+
+
+
+
+
+/*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
+/*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
+
+
+
+
+#section_org{height: 100%;
+         max-width: 1000px;
+         position: absolute;
+         background-color: #D5FDB3;
+         margin-left: 200px;
+         margin-top: 150px;}
+
+/*greenpaeace*/  /*greenpaeace*/ /*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*/ 
+
+.natura{min-width: 1000px;
+       min-width: auto;
+     height: 100vh;
+     position: absolute;
+     margin: 30px;
+     
+     margin-top:160px;
+     
+     }
+
+.natura_text{margin-top:15px;
+           margin-left: 80px;
+           text-align: center;
+           background-image:url(https://pbs.twimg.com/profile_images/1439956506422792194/KZQ4-Ytj_400x400.jpg);
+           background-repeat: no-repeat;
+           background-size: contain;
+           border: 2px solid #000000;
+          
+          }
+
+
+
+
+/*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*//*greenpaeace*/
+
+
+/*natura*/   /*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*/
+
+
+
+.green_text{margin-top:15px; 
+            margin-left: 80px;
+             text-align: center;
+             background-image: url(https://avicultura.com/wp-content/uploads/2016/06/greenpeace-1.jpg);
+             background-size:contain;
+             background-repeat: no-repeat;
+             border: 2px solid #000000;
+          }
+
+/*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*//*natura*/
+
+/*wwf*//*wwf*/ /*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*/
+
+
+     
+.wwf_text{margin-top: 15px;
+     margin-left:80px ;
+          text-align: center;
+          background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlienoKdHMU2738WJWRgMWXBAmadtRDdyFLeuJb9dqBrlKfuvXbdEUuwc_31awiPgpUGQ&usqp=CAU);
+          background-repeat: no-repeat;
+          border: 2px solid #000000;
+     }
+
+/*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*//*wwf*/
+
+
+.org_img{position: absolute;
+         width: 250px;
+         height: 190px;}
+
+
+
+/*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
+/*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
+
+
+
+
+
+.grid_rec{display: grid;
+          grid-template-rows: 250px 250px 250px ;
+          grid-template-columns: 250px 1fr 1fr;
+          margin-top: 165px;
+          position: absolute;
+          width: 100%;
+
+          
+     }
+
+
+
+.grid_item{border:1px solid #000000; color: aqua;
+          background-size: cover;
+          
+
+}
+
+
+.met{display: none;}
+
+/*pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilaspilas pilas pilas pilaspilas pilas pilas pilas*/
+
+
+.pilas_img{background-image: url(https://wastemagazine.es/fotos2/pilas-reciclado.jpg);
+     grid-column: 1 / 3;
+     overflow: hidden;
+}
+
+.pilas_img:hover{background-color: #D5FDB3;
+                 background-image: none;
+                 overflow: scroll;
+}
+.pilas_img:hover > .met{display: inline;
+                        color: #000000;
+                        }
+
+/*pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilaspilas pilas pilas pilaspilas pilas pilas pilas*/
+
+/* ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa */
+
+.ropa_img{background-image: url(https://slowfashionnext.com/wp-content/uploads/2022/09/como_se_recicla_la_ropa_portada.jpg);
+         overflow: hidden;
+}
+
+.ropa_img:hover{background-color: #D5FDB3;
+                background-image: none;
+                overflow: scroll;}
+
+.ropa_img:hover > .met{display: inline;
+                       color: #000000;
+     }
+
+/* ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa */
+
+/*plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico*/
+
+
+.plastico_img{background-image: url(https://www.anahuac.mx/mexico/sites/default/files/noticias/El-plastico-reciclado-eficiente-como-material-de-construccion.jpg);
+              grid-column: 1 / 3;
+              overflow: hidden;}
+
+.plastico_img:hover{background-color: #D5FDB3;
+                    background-image: none;
+                    overflow: scroll;}
+
+
+.plastico_img:hover > .met{display: inline;
+                           color: #000000;}
+
+/*plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico*/
+
+
+/*vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio*/
+
+
+.vidrio_img{background-image: url(https://www.bbva.com/wp-content/uploads/2021/03/BBVA-reciclaje-vidrio-interior.jpg);
+            overflow: hidden;}
+
+.vidrio_img:hover{background-color: #D5FDB3;
+               background-image: none;
+               overflow: scroll;}
+
+
+.vidrio_img:hover > .met{display: inline;
+                      color: #000000;}
+
+
+
+/*vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio*/
+
+
+/* tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas */
+
+.tapas_img{background-image: url(https://www.ucr.ac.cr/medios/fotos/2018/15bf5fcf50597d.jpg);
+           grid-column: 1 / 3;}
+
+.tapas_img:hover{background-color: #D5FDB3;
+                  background-image: none;
+                  overflow: scroll;}
+
+
+.tapas_img:hover > .met{display: inline;
+                         color: #000000;}
+
+/* tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas */
+
+/*cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro*/
+
+.cigarro_img{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSRTnlma6tvNASjHaqC5zxOHhLJSo9xaCSA&usqp=CAU);
+             overflow: hidden;
+}
+
+.cigarro_img:hover{background-color: #D5FDB3;
+                 background-image: none;
+                 overflow: scroll;}
+
+
+.cigarro_img:hover > .met{display: inline;
+                        color: #000000;}
+
+
+/*cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro*/
+
+
+
+
+
+
+
+
+
+
+.flex_container_er{position: absolute;
+                   margin-top: 200px;
+                   display: flex;
+                   flex-wrap: wrap;
+                   width: 100%;
+                   height: 400px
+                   
+               }
+
+
+
+
+.flex_item_er{
+              height: 100%;
+              width: 100%;
+              margin-top: 60px;
+}
+
+.eo{background-image:url(https://www.bbva.com/wp-content/uploads/2021/06/sostenibilidad-BBVA-molinos-eolicos-energia.jpg);
+    background-size: cover;
+
+    
+   
+    
+}
+.eo_txt{text-align: center;}
+
+
+
+
+
+.sol{background-image:url(https://www.mburuguay.com.uy/imgs/resumen_ejecutivo/resumen_ejecutivo7_149.jpg) ;
+      background-size: cover;
+      
+      
+     }
+.sol_txt{}
+
+.hid{background-image:url(https://phantom-expansion.unidadeditorial.es/bac41ca997a072cf7de41bc99d4bca92/resize/414/f/jpg/assets/multimedia/imagenes/2022/11/18/16687914639781.jpg) ;
+     background-size: cover;
+     
+}
+.hid_txt{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{background-color:#445;
+       position: absolute;
+       margin-top: 3500px;
+       height: 50px;
+       width: 100%;}
+
+
+.footer_div li{text-decoration: none;
+             display: inline-block;
+             color: #000000;
+             margin-left: 270px;
+             font-size: 13px;
+           }
+
+
+
