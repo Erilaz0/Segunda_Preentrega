@@ -5,7 +5,7 @@ body{margin:0;
      
 }
 
-
+li{text-decoration: none !important;}
 /*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*/
 
 
@@ -61,148 +61,114 @@ a{text-decoration: none;
 
 
 
-/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/ 
-/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
-
-
-
-#article_index{margin-top: 150px;
-	          margin-left: 240px;
-	          background-color: #D5FDB3;
-	          position: absolute;
-               width: 900px;
-               height:900px;
-               border: 1px solid #000000;}
-
-.eolica{width:200px; 
-        height:200px;
-        margin-left: 50px;
-        margin-top: 90px;
-        position: absolute;}
-
-
-.eolica_info{height: 200px;
-             width: 570px;
-             margin-left: 290px;
-             margin-top: 90px;
-             background-color: #FBF7FA;
-             position: absolute;
-             text-align: center;
-             font-size: 15px;
-             border: 1px solid #000000;}
-
-.solar{height: 200px;
-       width: 200px;
-       margin-top: 350px;
-       margin-left: 660px;
-       position: absolute;}
-
-.solar_info{height: 200px;
-            width: 570px;
-            margin-top: 350px;
-            text-align: center;
-            font-size: 15px;
-            position: absolute;
-            margin-left: 50px;
-            background-color: #FBF7FA;
-            border: 1px solid #000000;}
-
-.hidraulica{height: 200px;
-            width: 200px;
-            margin-top: 650px;
-            margin-left: 50px;
-            position: absolute;}
-
-
-.hidraulica_info{height: 200px;
-            width: 570px;
-            margin-top: 650px;
-            text-align: center;
-            font-size: 15px;
-            position: absolute;
-            margin-left: 290px;
-            background-color: #FBF7FA;
-            border: 1px solid #000000;}
-
-
-/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
-/*Energias Renovables*/ /*Energias Renovables*//*Energias Renovables*/ /*Energias Renovables*/
 
 
 
 
 
+/*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*/
 
 
-/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
-/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
-
- #section_cont{margin-top: 150px;
-          margin-left: 240px;
-          background-color: #D5FDB3;
-          position: absolute;
-          width: 900px;
-          height:1300px;
-          border: 1px solid #000000;}
-
-.cont{height: 540px;
-      width: 250px;
-      background-color: #FFF3FC;
-      margin-top: 30px;
-      margin-left: 20px;
-      border:1px solid #000000;
-      position: absolute;}
-
-.cont_info{text-align: center;
-           margin:4px;
-           position: absolute;
-           font-size: 12px;
-          }
 
 
-.cont_type_div{background-color: #FEE3C9;
-               height: 1245px;
-               width: 550px;
-               margin-left: 300px;
-               position: absolute;
-               margin-top: 30px;}
+.cont_div{box-sizing: border-box;
+     width: 1000px;
+     
+     margin-left: 180px;
+     margin-top: 100px;
+     position: absolute;
+     text-align: center;
+}
 
 
-.cont_type{ background-color: #FFF3FC;
-            height: 180px;
-            width: 510px;
-            margin: 20px;
-            border:1px solid #000000;}
+.cont_info{border-top: 1px solid #000000;
+      border-bottom: 1px solid #000000;}
 
 
-.onu_decl{
-      height: 645px;
-      width: 250px;
-      background-color: #FFF3FC;
-      margin-top: 628px;
-      margin-left: 20px;
-      border:1px solid #000000;
-      position: absolute;
-      font-size: 12px;}
 
-/* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */
-/* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */ /* tipos de contaminacion */
-
-.cont_type img{height: 180px;
-               width: 150px;
-               margin-left: 360px;
-               position: absolute;}
-
-.cont_text{width: 350px;
-          height: 180px;
-          font-size: 12px;
-          position: absolute;
-          margin-left: 4px;}
-
-/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
-/*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*//*Contaminacion*/
+.cont_info_dos{border-top: 1px solid #000000;
+          border-bottom: 1px solid #000000;
+          margin-top: 50px;
+}
 
 
+.op{font-size: 20px;
+margin-top: 30px;
+}
+
+
+
+.cont_img{margin-top: 1000px;
+     box-sizing: border-box;
+     position: absolute;
+     margin-left: 380px;
+
+}
+
+.cont{
+ height: 600px;
+ width: 600px;
+ border-radius: 50%;
+ margin-bottom: 50px;
+
+}
+
+
+.cont_text{display: none;}
+
+
+.cont:first-child:hover{background-image:none;}
+.cont:nth-child(2):hover{background-image:none;}
+.cont:nth-child(3):hover{background-image:none;}
+.cont:nth-child(4):hover{background-image:none;}
+.cont:nth-child(5):hover{background-image:none;}
+.cont:last-child:hover{background-image:none;}
+
+
+.cont:hover > .cont_text{display: inline-block;
+                    background-color: #D5FDB3;
+                    margin-top: 100px;
+                    border-radius: 0%;
+                    box-sizing: content-box;
+                    
+}
+
+
+.cont:first-child{background-image: url(https://medlineplus.gov/images/Wildfires_share.jpg);
+             background-size: cover;
+             
+}
+.cont:nth-child(2){background-image: url(https://ruminants.ceva.pro/hubfs/ganaderia-extensiva.jpg);
+              background-size: cover;
+}
+.cont:nth-child(3){background-image: url(https://www.comoves.unam.mx/assets/revista/242/la-basura-en-su-lugar.jpg);
+              background-size: cover;
+}
+.cont:nth-child(4){background-image: url(https://www.lavanguardia.com/files/og_thumbnail/uploads/2021/02/22/6034006c7dca6.jpeg);
+              background-size: cover;
+}
+.cont:nth-child(5){background-image: url(https://www.seguroweb.com.ar/wp-content/uploads/bfi_thumb/Autos-algunas-soluciones-para-la-contaminaci%C3%B3n-del-aire-Portada-SeguridadNews-32pjt4u5p3gped1b3w426i.jpg);
+              background-size: cover;
+}
+.cont:last-child{background-image: url(https://www.foronuclear.org/wp-content/uploads/2010/06/petroleo.jpg);
+            background-size: cover;
+}
+
+
+
+.vid{box-sizing: content-box;
+         width: 100%;
+}
+
+
+@media only screen and (max-width:1200px){.cont_div{width:800px}  }
+@media only screen and (max-width:1050px){.cont_div{width:600px}  }
+@media only screen and (max-width:1200px){.cont_img{margin-left: 280px;
+                                               margin-top: 1050px;}}
+@media only screen and (max-width:1050px){.cont_img{margin-left: 200px;
+                                               margin-top: 1280px;}}
+
+/*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*//*contaminacion*/
 
 
 
@@ -233,7 +199,7 @@ a{text-decoration: none;
 
 
 
-.form{margin-top: 60px;
+.form{margin-top: 40px;
       position: absolute;
       height: 400px;}
 
@@ -250,8 +216,11 @@ a{text-decoration: none;
 .form_input{width:300px;
             margin:17px;} 
 
-#inp{margin:5px;     /*contenedor de inputs individuales*/
+#inp{margin:5px;
+     margin-left: 19px; 
+     margin-top: 0px;   
      width: 400px;}
+
 
 /*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
 
@@ -285,7 +254,16 @@ a{text-decoration: none;
            margin-top: 37px;}
 
 
+@media only screen and (max-width:1091px){.form_cont{margin-left: 250px}}
 
+@media only screen and (max-width:1020px){.form_cont{margin-left: 200px;
+                                                     height: 700px;
+                                                     width: 500px;}
+                                          .form_logo{margin-top:430px;
+                                                     margin-left: 72px;
+                                                     width: 200px;
+                                                     height: 200px;}
+                                          .form{margin-left: 80px;}}
 
 
 /*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*//*contactanos*/           
@@ -483,16 +461,25 @@ a{text-decoration: none;
 /*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*//*org*/
 
 
-
-
+.title{text-align: center;
+       width: 800px;
+       height: 300px;
+       margin-left: 280px;
+       margin-top: 100px;
+       position: absolute;
+       
+}
+.rec_p{border-bottom: 1px solid #000000;}
 
 .grid_rec{display: grid;
           grid-template-rows:(0 max-content);
           grid-template-columns: (0 max-content);
-          margin-top: 165px;
+          margin-left: 180px;
+          margin-top: 400px;
           position: absolute;
-          width: 100%;
+          width: 1000px;
           height: 2000px;
+          grid-gap: 80px;
           
 
           
@@ -502,25 +489,33 @@ a{text-decoration: none;
 
 .grid_item{border:1px solid #000000; color: aqua;
           background-size: cover;
-          transition: 2s;
+          
 
 }
 
 
-.met{display: none;
-     
-}
+.met{display: none;}
 
+@media only screen and (max-width:1238px){.grid_rec{margin-left: 120px;}}
+@media only screen and (max-width:1238px){.title{margin-left: 220px;}}
+
+@media only screen and (max-width:1160px){.grid_rec{margin-left: 80px;}}
+@media only screen and (max-width:1160px){.title{margin-left: 180px;}}
+
+@media only screen and (max-width:1100px){.grid_rec{margin-left: 0px;
+                                                    width: 100%;
+}}
+@media only screen and (max-width:1100px){.title{margin-left: 120px;}}
 /*pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilaspilas pilas pilas pilaspilas pilas pilas pilas*/
 
 
 .pilas_img{background-image: url(https://wastemagazine.es/fotos2/pilas-reciclado.jpg);
-           overflow: hidden;
+           
 }
 
 .pilas_img:hover{background-color: #D5FDB3;
                  background-image: none;
-                 overflow: scroll;
+                 
                  
 }
 .pilas_img:hover > .met{display: inline;
@@ -533,13 +528,13 @@ a{text-decoration: none;
 /* ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa */
 
 .ropa_img{background-image: url(https://slowfashionnext.com/wp-content/uploads/2022/09/como_se_recicla_la_ropa_portada.jpg);
-         overflow: hidden;
+         
          
 }
 
 .ropa_img:hover{background-color: #D5FDB3;
                 background-image: none;
-                overflow: scroll;}
+                }
 
 .ropa_img:hover > .met{display: inline;
                        color: #000000;
@@ -551,11 +546,11 @@ a{text-decoration: none;
 
 
 .plastico_img{background-image: url(https://www.anahuac.mx/mexico/sites/default/files/noticias/El-plastico-reciclado-eficiente-como-material-de-construccion.jpg);
-              overflow: hidden;}
+             }
 
 .plastico_img:hover{background-color: #D5FDB3;
                     background-image: none;
-                    overflow: scroll;}
+                    }
 
 
 .plastico_img:hover > .met{display: inline;
@@ -568,13 +563,13 @@ a{text-decoration: none;
 
 
 .vidrio_img{background-image: url(https://www.bbva.com/wp-content/uploads/2021/03/BBVA-reciclaje-vidrio-interior.jpg);
-            overflow: hidden;
+            
           
           }
 
 .vidrio_img:hover{background-color: #D5FDB3;
                background-image: none;
-               overflow: scroll;}
+               }
 
 
 .vidrio_img:hover > .met{display: inline;
@@ -593,7 +588,7 @@ a{text-decoration: none;
 
 .tapas_img:hover{background-color: #D5FDB3;
                  background-image: none;
-                 overflow: scroll;}
+                 }
 
 
 .tapas_img:hover > .met{display: inline;
@@ -604,13 +599,13 @@ a{text-decoration: none;
 /*cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro*/
 
 .cigarro_img{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSRTnlma6tvNASjHaqC5zxOHhLJSo9xaCSA&usqp=CAU);
-             overflow: hidden;
+             
              
 }
 
 .cigarro_img:hover{background-color: #D5FDB3;
                    background-image: none;
-                   overflow: scroll;}
+                   }
 
 
 .cigarro_img:hover > .met{display: inline;
@@ -653,7 +648,9 @@ a{text-decoration: none;
    
     
 }
-.eo_txt{text-align: center;}
+.eo_txt{text-align: center;
+        
+}
 
 
 
@@ -689,39 +686,6 @@ a{text-decoration: none;
 
 
 
-footer{background-color: #445;
-       position: absolute;
-       margin-top: 3500px;
-       height: 50px;
-       width: 100%;}
-
-
-.footer_div li{text-decoration: none;
-             display: inline-block;
-             color: #000000;
-             margin-left: 270px;
-             font-size: 13px;
-           }
-
-
-
-
-.footer_rec_cont{background-color:#445;
-               position: absolute;
-               margin-top: 2165px;
-               height: 50px;
-               width: 100%;}
-
-
-.footer_rec li{text-decoration: none;
-             display: inline-block;
-             color: #000000;
-             margin-left: 270px;
-             font-size: 13px;
-           }
-
-
-
 
         
 /*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*/
@@ -735,3 +699,87 @@ footer{background-color: #445;
 
 
 /*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*//*footer responsive*/
+
+footer{background-color: #445;
+     position: absolute;
+     margin-top: 3500px;
+     height: 50px;
+     width: 100%;}
+
+
+.footer_div li{text-decoration: none;
+           display: inline-block;
+           color: #000000;
+           margin-left: 270px;
+           font-size: 13px;
+         }
+
+
+
+
+.footer_rec_cont{background-color:#445;
+             position: absolute;
+             margin-top: 2365px;
+             height: 50px;
+             width: 100%;}
+
+
+.footer_rec li{text-decoration: none;
+           display: inline-block;
+           color: #000000;
+           margin-left: 270px;
+           font-size: 13px;
+         }
+
+
+
+
+.footer_contamination{background-color:#445 ;
+     position: absolute;
+     margin-top: 5000px;
+     height: 50px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+  }
+.footer_contamination_div{text-decoration: none;
+     display: flex;
+     color: #000000;
+     font-size: 13px;
+     width: 800px;}
+
+@media only screen and (min-height:808px){.footer_contamination{margin-top:5200px}}
+
+
+
+.footer_contact{background-color:#445 ;
+   position: absolute;
+   margin-top: 1000px;
+   height: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+
+.footer_contact_div{
+   text-decoration: none;
+   display: flex;
+   color: #000000;
+   font-size: 13px;
+   width: 800px;
+}
+
+
+.li_cont{margin-left: 150px;
+         text-decoration: none;
+}
+
+
+
+
+@media only screen and (min-height:916px){.footer_contact{margin-top:1100px}}
+@media only screen and (min-height:1022px){.footer_contact{margin-top:1200px}}
+@media only screen and (min-height:1060px){.footer_contact{margin-top:1400px}}
+@media only screen and (min-height:600px){.footer_contact{margin-top:2000px}}
+@media only screen and (min-height:400px){.footer_contact{margin-top:2100px}}
