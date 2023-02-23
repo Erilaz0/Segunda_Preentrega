@@ -1,0 +1,58 @@
+
+.barra_div{padding: 0;
+    width: 100%;
+    height: 38px; 
+    position: absolute;
+    background-color: #4A4949;
+
+
+    .nav_cont{list-style: none;
+        position: absolute;     
+        z-index:-1;
+        background-color: #696868;
+        margin-top: -139px;
+        margin-left: 20px;
+        padding: 0%;
+        height: 120px;
+        width: 170px;
+        transition-duration: 2s , 2s;
+
+
+
+
+            a{text-decoration: none;
+            color: #D5FDB3;}
+            
+            
+            
+            .a{padding-right:26px ; padding-left: $padding_nav;}
+            .b{padding-right:62px ;padding-left:$padding_nav;}
+            .c{padding-right:110px ;padding-left:$padding_nav;}
+            .d{padding-right:142px ;padding-left:$padding_nav;}
+            .e{padding-right:81px ;padding-left:$padding_nav;}
+
+
+
+
+    }
+    
+
+    .icono{width: 20px;
+        height: 20px;
+        margin-left: 25px;
+        margin-top: 6px;}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.barra:hover{background-color: #7B7B7B;}
+.barra_div:hover > .nav_cont{margin-top: 38px;}

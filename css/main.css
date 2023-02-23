@@ -1,0 +1,650 @@
+body {
+  margin: 0;
+  height: 100%; }
+
+li {
+  text-decoration: none !important; }
+
+.form_cont {
+  width: 700px;
+  height: 450px;
+  background-color: #D5FDB3;
+  margin-left: 350px;
+  margin-top: 170px;
+  position: absolute;
+  display: inline;
+  border-radius: 3%;
+  border: 1px solid #000000; }
+  .form_cont .form {
+    margin-top: 40px;
+    position: absolute;
+    height: 400px;
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/
+    /*input*/ }
+    .form_cont .form .form_input {
+      width: 300px;
+      margin: 17px; }
+    .form_cont .form #inp {
+      margin: 5px;
+      margin-left: 19px;
+      margin-top: 0px;
+      width: 400px; }
+    .form_cont .form .date {
+      margin-top: 5px; }
+    .form_cont .form .email {
+      margin-top: 10px; }
+    .form_cont .form .pass {
+      margin-top: 15px; }
+    .form_cont .form .button {
+      margin-top: 5px; }
+    .form_cont .form .form_button {
+      width: 100px;
+      margin-left: 125px; }
+    .form_cont .form .form_logo {
+      position: absolute;
+      margin-left: 390px;
+      width: 280px;
+      height: 230px;
+      border-radius: 50%;
+      margin-top: 37px; }
+
+@media only screen and (max-width: 1091px) {
+  .form_cont {
+    margin-left: 250px; } }
+
+@media only screen and (max-width: 1020px) {
+  .form_cont {
+    margin-left: 200px;
+    height: 700px;
+    width: 500px; }
+  .form_logo {
+    margin-top: 30px;
+    margin-left: 72px;
+    width: 200px;
+    height: 200px; }
+  .form {
+    margin-left: 80px; } }
+
+.footer_contact {
+  background-color: #445;
+  position: absolute;
+  margin-top: 1000px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center; }
+  .footer_contact .footer_contact_div {
+    text-decoration: none;
+    display: flex;
+    color: #000000;
+    font-size: 13px;
+    width: 800px; }
+    .footer_contact .footer_contact_div .li_cont {
+      margin-left: 150px;
+      text-decoration: none; }
+
+@media only screen and (min-height: 916px) {
+  .footer_contact {
+    margin-top: 1100px; } }
+
+@media only screen and (min-height: 1022px) {
+  .footer_contact {
+    margin-top: 1200px; } }
+
+@media only screen and (min-height: 1060px) {
+  .footer_contact {
+    margin-top: 1400px; } }
+
+@media only screen and (min-height: 600px) {
+  .footer_contact {
+    margin-top: 2000px; } }
+
+@media only screen and (min-height: 400px) {
+  .footer_contact {
+    margin-top: 2100px; } }
+
+.cont_div {
+  box-sizing: border-box;
+  width: 1000px;
+  margin-left: 180px;
+  margin-top: 100px;
+  position: absolute;
+  text-align: center; }
+  .cont_div .cont_info, .cont_div .cont_info_dos {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000; }
+  .cont_div .cont_info_dos {
+    margin-top: 50px; }
+  .cont_div .op {
+    font-size: 20px;
+    margin-top: 30px; }
+
+.cont_img {
+  margin-top: 1000px;
+  box-sizing: border-box;
+  position: absolute;
+  margin-left: 380px; }
+  .cont_img .cont {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-bottom: 50px; }
+  .cont_img .cont_text {
+    display: none; }
+    .cont_img .cont_text .vid {
+      box-sizing: content-box;
+      width: 100%; }
+  .cont_img .cont:first-child {
+    background-image: url(https://medlineplus.gov/images/Wildfires_share.jpg);
+    background-size: cover; }
+  .cont_img .cont:nth-child(2) {
+    background-image: url(https://ruminants.ceva.pro/hubfs/ganaderia-extensiva.jpg);
+    background-size: cover; }
+  .cont_img .cont:nth-child(3) {
+    background-image: url(https://www.comoves.unam.mx/assets/revista/242/la-basura-en-su-lugar.jpg);
+    background-size: cover; }
+  .cont_img .cont:nth-child(4) {
+    background-image: url(https://www.lavanguardia.com/files/og_thumbnail/uploads/2021/02/22/6034006c7dca6.jpeg);
+    background-size: cover; }
+  .cont_img .cont:nth-child(5) {
+    background-image: url(https://www.seguroweb.com.ar/wp-content/uploads/bfi_thumb/Autos-algunas-soluciones-para-la-contaminaci%C3%B3n-del-aire-Portada-SeguridadNews-32pjt4u5p3gped1b3w426i.jpg);
+    background-size: cover; }
+  .cont_img .cont:last-child {
+    background-image: url(https://www.foronuclear.org/wp-content/uploads/2010/06/petroleo.jpg);
+    background-size: cover; }
+
+.cont:first-child:hover {
+  background-image: none; }
+
+.cont:nth-child(2):hover {
+  background-image: none; }
+
+.cont:nth-child(3):hover {
+  background-image: none; }
+
+.cont:nth-child(4):hover {
+  background-image: none; }
+
+.cont:nth-child(5):hover {
+  background-image: none; }
+
+.cont:last-child:hover {
+  background-image: none; }
+
+.cont:hover > .cont_text {
+  display: inline-block;
+  background-color: #D5FDB3;
+  margin-top: 100px;
+  border-radius: 0%;
+  box-sizing: content-box; }
+
+@media only screen and (max-width: 1050px) {
+  .cont_img {
+    margin-left: 200px;
+    margin-top: 1280px; } }
+
+@media only screen and (max-width: 1200px) {
+  .cont_div {
+    width: 800px; } }
+
+@media only screen and (max-width: 1050px) {
+  .cont_div {
+    width: 600px; } }
+
+@media only screen and (max-width: 1200px) {
+  .cont_img {
+    margin-left: 280px;
+    margin-top: 1050px; } }
+
+.footer_contamination {
+  background-color: #445;
+  position: absolute;
+  margin-top: 5000px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .footer_contamination .footer_contamination_div {
+    text-decoration: none;
+    display: flex;
+    color: #000000;
+    font-size: 13px;
+    width: 800px; }
+
+@media only screen and (min-height: 808px) {
+  .footer_contamination {
+    margin-top: 5200px; } }
+
+footer {
+  background-color: #445;
+  position: absolute;
+  margin-top: 3500px;
+  width: 100%;
+  height: 50px; }
+  footer .footer_div li {
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    margin-left: 270px;
+    font-size: 13px; }
+
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+@media only screen and (max-width: 1071px) {
+  .footer_div li {
+    margin-left: 200px; } }
+
+@media only screen and (max-width: 866px) {
+  .footer_div li {
+    margin-left: 150px; } }
+
+@media only screen and (max-width: 714px) {
+  .footer_div li {
+    margin-left: 100px; } }
+
+@media only screen and (max-width: 570px) {
+  .footer_div li {
+    margin-left: 50px; } }
+
+@media only screen and (max-width: 570px) {
+  .footer_div li {
+    margin-left: 20px; } }
+
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+/*footer responsive*/
+.flex_container_er {
+  position: absolute;
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 400px; }
+  .flex_container_er .flex_item_er {
+    height: 100%;
+    width: 100%;
+    margin-top: 60px; }
+  .flex_container_er .eo {
+    background-image: url(https://www.bbva.com/wp-content/uploads/2021/06/sostenibilidad-BBVA-molinos-eolicos-energia.jpg);
+    background-size: cover; }
+  .flex_container_er .eo_txt {
+    text-align: center; }
+  .flex_container_er .sol {
+    background-image: url(https://www.mburuguay.com.uy/imgs/resumen_ejecutivo/resumen_ejecutivo7_149.jpg);
+    background-size: cover; }
+  .flex_container_er .hid {
+    background-image: url(https://phantom-expansion.unidadeditorial.es/bac41ca997a072cf7de41bc99d4bca92/resize/414/f/jpg/assets/multimedia/imagenes/2022/11/18/16687914639781.jpg);
+    background-size: cover; }
+
+.barra_div {
+  padding: 0;
+  width: 100%;
+  height: 38px;
+  position: absolute;
+  background-color: #4A4949; }
+  .barra_div .nav_cont {
+    list-style: none;
+    position: absolute;
+    z-index: -1;
+    background-color: #696868;
+    margin-top: -139px;
+    margin-left: 20px;
+    padding: 0%;
+    height: 120px;
+    width: 170px;
+    transition-duration: 2s , 2s; }
+    .barra_div .nav_cont a {
+      text-decoration: none;
+      color: #D5FDB3; }
+    .barra_div .nav_cont .a {
+      padding-right: 26px;
+      padding-left: 3px; }
+    .barra_div .nav_cont .b {
+      padding-right: 62px;
+      padding-left: 3px; }
+    .barra_div .nav_cont .c {
+      padding-right: 110px;
+      padding-left: 3px; }
+    .barra_div .nav_cont .d {
+      padding-right: 142px;
+      padding-left: 3px; }
+    .barra_div .nav_cont .e {
+      padding-right: 81px;
+      padding-left: 3px; }
+  .barra_div .icono {
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 6px; }
+
+.barra:hover {
+  background-color: #7B7B7B; }
+
+.barra_div:hover > .nav_cont {
+  margin-top: 38px; }
+
+#section_org {
+  height: 100%;
+  max-width: 1000px;
+  position: absolute;
+  background-color: #D5FDB3;
+  margin-left: 20px;
+  margin-top: 150px; }
+
+.natura {
+  height: 100%;
+  position: absolute;
+  margin: 30px;
+  margin-top: 160px; }
+
+.natura_text {
+  margin-top: 15px;
+  height: 400px;
+  text-align: right;
+  background-image: url(https://pbs.twimg.com/profile_images/1439956506422792194/KZQ4-Ytj_400x400.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .natura_text .natura_img {
+    display: none; }
+  .natura_text .green_p {
+    height: 100%;
+    width: 63%;
+    border-left: 1px solid #000000;
+    margin-left: 34%; }
+
+.green_text {
+  margin-top: 55px;
+  height: 400px;
+  text-align: right;
+  background-image: url(https://static.guiaongs.org/wp-content/uploads/2015/09/greenpeace_destacada-360x336.png);
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .green_text .natura_img {
+    display: none; }
+  .green_text .green_p {
+    height: 100%;
+    width: 63%;
+    border-left: 1px solid #000000;
+    margin-left: 34%; }
+
+.wwf_text {
+  margin-top: 55px;
+  height: 400px;
+  text-align: right;
+  background-image: url(https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0004/0698/brand.gif?itok=AOXU7GgP);
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .wwf_text .natura_img {
+    display: none; }
+  .wwf_text .green_p {
+    height: 100%;
+    width: 63%;
+    border-left: 1px solid #000000;
+    margin-left: 34%; }
+
+/*Responsive org*/
+/*Responsive org*/
+/*Responsive org*/
+/*Responsive org*/
+/*Responsive org*/
+/*Responsive org*/
+/*Responsive org*/
+/*Responsive org*/
+/*Responsive org*/
+/*Responsive org*/
+@media only screen and (max-width: 1217px) {
+  .green_p {
+    height: 100%;
+    width: 63%;
+    margin-left: 35%;
+    border-left: none;
+    border-top: 2px solid #000000; }
+  .natura_text {
+    height: 800px;
+    background-image: none;
+    text-align: center; }
+  .green_text {
+    height: 800px;
+    background-image: none;
+    text-align: center; }
+  .wwf_text {
+    height: 800px;
+    background-image: none;
+    text-align: center; }
+  .natura {
+    margin-left: 0px; }
+  .natura_img {
+    display: block;
+    margin-left: 50%; } }
+
+@media only screen and (max-width: 990px) {
+  .green_p {
+    width: 63%;
+    height: 100%;
+    margin-left: 22%;
+    border-left: none;
+    border-top: 2px solid #000000; }
+  .natura_text {
+    height: 800px;
+    background-image: none;
+    text-align: center; }
+  .green_text {
+    height: 800px;
+    background-image: none;
+    text-align: center; }
+  .wwf_text {
+    height: 800px;
+    background-image: none;
+    text-align: center; }
+  .natura {
+    margin-left: 0px; }
+  .natura_img {
+    display: block;
+    margin-left: 38%; } }
+
+@media only screen and (max-width: 710px) {
+  .green_p {
+    height: 100%;
+    width: 63%;
+    margin-left: 22%;
+    border-left: none;
+    border-top: 2px solid #000000; }
+  .natura_text {
+    height: 1000px;
+    background-image: none;
+    text-align: center; }
+  .green_text {
+    height: 1000px;
+    background-image: none;
+    text-align: center; }
+  .wwf_text {
+    height: 1000px;
+    background-image: none;
+    text-align: center; }
+  .natura {
+    margin-left: 0px; }
+  .natura_img {
+    display: block;
+    margin-left: 38%; } }
+
+.title {
+  text-align: center;
+  width: 800px;
+  height: 300px;
+  margin-left: 280px;
+  margin-top: 100px;
+  position: absolute; }
+  .title .rec_p {
+    border-bottom: 1px solid #000000; }
+
+.grid_rec {
+  display: grid;
+  grid-template-rows: 0 max-content;
+  grid-template-columns: 0 max-content;
+  margin-left: 180px;
+  margin-top: 400px;
+  position: absolute;
+  width: 1000px;
+  height: 2000px;
+  grid-gap: 80px; }
+  .grid_rec .grid_item {
+    border: 1px solid #000000;
+    color: aqua;
+    background-size: cover; }
+    .grid_rec .grid_item .met {
+      display: none; }
+  .grid_rec .pilas_img {
+    background-image: url(https://wastemagazine.es/fotos2/pilas-reciclado.jpg); }
+  .grid_rec .ropa_img {
+    background-image: url(https://slowfashionnext.com/wp-content/uploads/2022/09/como_se_recicla_la_ropa_portada.jpg); }
+  .grid_rec .plastico_img {
+    background-image: url(https://www.anahuac.mx/mexico/sites/default/files/noticias/El-plastico-reciclado-eficiente-como-material-de-construccion.jpg); }
+  .grid_rec .vidrio_img {
+    background-image: url(https://www.bbva.com/wp-content/uploads/2021/03/BBVA-reciclaje-vidrio-interior.jpg); }
+  .grid_rec .tapas_img {
+    background-image: url(https://www.ucr.ac.cr/medios/fotos/2018/15bf5fcf50597d.jpg); }
+  .grid_rec .cigarro_img {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSRTnlma6tvNASjHaqC5zxOHhLJSo9xaCSA&usqp=CAU); }
+
+@media only screen and (max-width: 1238px) {
+  .grid_rec {
+    margin-left: 120px; } }
+
+@media only screen and (max-width: 1238px) {
+  .title {
+    margin-left: 220px; } }
+
+@media only screen and (max-width: 1160px) {
+  .grid_rec {
+    margin-left: 80px; } }
+
+@media only screen and (max-width: 1160px) {
+  .title {
+    margin-left: 180px; } }
+
+@media only screen and (max-width: 1100px) {
+  .grid_rec {
+    margin-left: 0px;
+    width: 100%; } }
+
+@media only screen and (max-width: 1100px) {
+  .title {
+    margin-left: 120px; } }
+
+/*pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilaspilas pilas pilas pilaspilas pilas pilas pilas*/
+.pilas_img {
+  background-image: url(https://wastemagazine.es/fotos2/pilas-reciclado.jpg); }
+
+.pilas_img:hover {
+  background-color: #D5FDB3;
+  background-image: none; }
+
+.pilas_img:hover > .met {
+  display: inline;
+  color: #000000; }
+
+/*pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilaspilas pilas pilas pilaspilas pilas pilas pilas*/
+/* ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa */
+.ropa_img {
+  background-image: url(https://slowfashionnext.com/wp-content/uploads/2022/09/como_se_recicla_la_ropa_portada.jpg); }
+
+.ropa_img:hover {
+  background-color: #D5FDB3;
+  background-image: none; }
+
+.ropa_img:hover > .met {
+  display: inline;
+  color: #000000; }
+
+/* ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa */
+/*plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico*/
+.plastico_img:hover {
+  background-color: #D5FDB3;
+  background-image: none; }
+
+.plastico_img:hover > .met {
+  display: inline;
+  color: #000000; }
+
+/*plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico*/
+/*vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio*/
+.vidrio_img:hover {
+  background-color: #D5FDB3;
+  background-image: none; }
+
+.vidrio_img:hover > .met {
+  display: inline;
+  color: #000000; }
+
+/*vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio*/
+/* tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas */
+.tapas_img:hover {
+  background-color: #D5FDB3;
+  background-image: none; }
+
+.tapas_img:hover > .met {
+  display: inline;
+  color: #000000; }
+
+/* tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas */
+/*cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro*/
+.cigarro_img:hover {
+  background-color: #D5FDB3;
+  background-image: none; }
+
+.cigarro_img:hover > .met {
+  display: inline;
+  color: #000000; }
+
+.footer_rec_cont {
+  background-color: #445;
+  position: absolute;
+  margin-top: 2365px;
+  height: 50px;
+  width: 100%; }
+
+.footer_rec li {
+  text-decoration: none;
+  display: inline-block;
+  color: #000000;
+  margin-left: 270px;
+  font-size: 13px; }

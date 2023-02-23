@@ -1,0 +1,110 @@
+
+
+.form_cont{
+         @include sizes (700px, 450px);
+         background-color:#D5FDB3;
+         margin-left: 350px;
+         margin-top: 170px;
+         position: absolute;
+         display: inline;
+         border-radius: 3%;
+         border:$line_border;
+      
+      
+         .form{margin-top: 40px;
+            position: absolute;
+            height: 400px;
+         
+         
+            .form_input{width:300px;
+               margin:17px;} 
+     
+            #inp{margin:5px;
+             margin-left: 19px; 
+             margin-top: 0px;   
+             width: 400px;}
+     
+     
+             /*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+     
+     
+     
+            .date{margin-top: 5px;}
+     
+            .email{margin-top: 10px;}
+     
+            .pass{margin-top: 15px;}
+     
+            .button{margin-top: 5px;}
+     
+            /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+     
+     
+            .form_button{width: 100px;
+                margin-left: 125px;}
+     
+     
+     
+     
+        
+     
+     
+            .form_logo{position: absolute;
+                       margin-left: 390px;
+                       @include sizes(280px, 230px);
+                       border-radius: 50%;
+                       margin-top: 37px;}}}
+
+
+
+
+@media only screen and (max-width:1091px){.form_cont{margin-left: 250px}}
+
+@media only screen and (max-width:1020px){.form_cont{margin-left: 200px;
+                                                   height: 700px;
+                                                   width: 500px;}
+                                        .form_logo{margin-top:30px;
+                                                   margin-left: 72px;
+                                                   width: 200px;
+                                                   height: 200px;}
+                                        .form{margin-left: 80px;}}
+
+
+
+
+
+
+
+.footer_contact{background-color: $footer-color;
+                                            position: absolute;
+                                            margin-top: 1000px;
+                                            @include sizes (100%, 50px);
+                                            display: flex;
+                                            justify-content: center;
+                                        
+                                        
+                                              .footer_contact_div{ text-decoration: none;
+                                               display: flex;
+                                               color: #000000;
+                                               font-size: 13px;
+                                               width: 800px;
+                                                  
+                                                 .li_cont{margin-left: 150px;
+                                                  text-decoration: none;}
+                                             
+                                                }}
+                                         
+                                         
+
+                                         
+                                         
+
+                                         
+                                         
+                                         
+                                         
+ @media only screen and (min-height:916px){.footer_contact{margin-top:1100px}}
+ @media only screen and (min-height:1022px){.footer_contact{margin-top:1200px}}
+ @media only screen and (min-height:1060px){.footer_contact{margin-top:1400px}}
+ @media only screen and (min-height:600px){.footer_contact{margin-top:2000px}}
+ @media only screen and (min-height:400px){.footer_contact{margin-top:2100px}}

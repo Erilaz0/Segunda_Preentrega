@@ -1,0 +1,36 @@
+.flex_container_er{position: absolute;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    
+
+
+    .flex_item_er{
+        height: 100%;
+        width: 100%;
+        margin-top: 60px;
+        }
+
+
+
+    .eo{background-image:url(https://www.bbva.com/wp-content/uploads/2021/06/sostenibilidad-BBVA-molinos-eolicos-energia.jpg);
+        background-size: $all;}
+    .eo_txt{text-align: center;}
+            
+    .sol{background-image:url(https://www.mburuguay.com.uy/imgs/resumen_ejecutivo/resumen_ejecutivo7_149.jpg) ;
+         background-size: $all;}
+            
+            
+    .hid{background-image:url(https://phantom-expansion.unidadeditorial.es/bac41ca997a072cf7de41bc99d4bca92/resize/414/f/jpg/assets/multimedia/imagenes/2022/11/18/16687914639781.jpg) ;
+         background-size:$all;}
+
+}
+
+
+
+
+
+
+

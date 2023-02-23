@@ -1,0 +1,172 @@
+
+#section_org{height: 100%;
+    max-width: 1000px;
+    position: absolute;
+    background-color: #D5FDB3;
+    margin-left: 20px;
+    margin-top: 150px;}
+   
+   
+        .natura{height: 100%;
+                position: absolute;
+                margin: 30px;
+                margin-top:160px;}
+   
+   
+                  
+                 .natura_text{margin-top:15px;
+                              height: 400px;
+                              text-align: right;
+                              background-image:url(https://pbs.twimg.com/profile_images/1439956506422792194/KZQ4-Ytj_400x400.jpg);
+                              background-repeat: no-repeat;
+                              background-size: contain;
+                           
+                           
+                                    .natura_img{display: none;}
+                           
+                                    .green_p{height: map-get($estilos, height );
+                                       width: map-get($estilos, width);
+                                       border-left: map-get($estilos, border-left);
+                                       margin-left: map-get($estilos, margin-left);}}
+
+   
+                 .green_text{margin-top:55px; 
+                             height: 400px;
+                             text-align: right;
+                             background-image: url(https://static.guiaongs.org/wp-content/uploads/2015/09/greenpeace_destacada-360x336.png);
+                             background-size:contain;
+                             background-repeat: no-repeat;
+                                           
+                           
+                                    .natura_img{display: none;}
+                           
+                                    .green_p{height: map-get($estilos, height );
+                                             width: map-get($estilos, width);
+                                             border-left: map-get($estilos, border-left);
+                                             margin-left: map-get($estilos, margin-left);}}
+                                       
+            
+   
+                 .wwf_text{margin-top: 55px;
+                           height: 400px;
+                           text-align: right;
+                           background-image: url(https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0004/0698/brand.gif?itok=AOXU7GgP);
+                           background-repeat: no-repeat;
+                           background-size: contain;
+                                              
+                        
+                                    .natura_img{display: none;}
+                           
+                                    .green_p{height: map-get($estilos, height );
+                                            width: map-get($estilos, width);
+                                            border-left: map-get($estilos, border-left);
+                                            margin-left: map-get($estilos, margin-left);}}
+
+
+
+
+
+
+
+/*Responsive org*//*Responsive org*//*Responsive org*//*Responsive org*//*Responsive org*//*Responsive org*//*Responsive org*//*Responsive org*//*Responsive org*//*Responsive org*/
+
+@media only screen and (max-width:1217px) { 
+
+.green_p {height:100%;
+      width:63%;
+      margin-left:35%;
+      border-left: none;
+      border-top: 2px solid #000000;
+ } 
+ 
+
+.natura_text{height: 800px;
+         background-image: none;
+         text-align: center;}
+
+.green_text{height: 800px;
+   background-image: none;
+   text-align: center;
+}
+
+.wwf_text{height: 800px;
+   background-image: none;
+   text-align: center;
+}
+ 
+.natura{margin-left: 0px;}
+
+.natura_img{display: block;
+        margin-left: 50%;}
+}
+
+
+@media only screen and (max-width:990px){
+
+.green_p {
+@include sizes(63%, 100%);
+ margin-left:22%;
+ border-left: none;
+ border-top: 2px solid #000000;
+} 
+
+
+.natura_text{height: 800px;
+    background-image: none;
+    text-align: center;
+    
+ }
+
+.green_text{height: 800px;
+background-image: none;
+text-align: center;
+}
+
+.wwf_text{height: 800px;
+background-image: none;
+text-align: center;
+}
+
+.natura{margin-left: 0px;}
+
+.natura_img{display: block;
+   margin-left: 38%;}
+
+
+}
+
+
+@media only screen and (max-width:710px){
+
+.green_p {height:100%;
+ width:63%;
+ margin-left:22%;
+ border-left: none;
+ border-top: 2px solid #000000;
+ 
+ } 
+
+
+.natura_text{height: 1000px;
+         background-image: none;
+         text-align: center;
+         }
+
+.green_text{height: 1000px;
+        background-image: none;
+        text-align: center;}
+
+.wwf_text{height: 1000px;
+      background-image: none;
+      text-align: center;}
+
+.natura{margin-left: 0px;}
+
+.natura_img{display: block;
+   margin-left: 38%;}
+
+
+
+
+
+}

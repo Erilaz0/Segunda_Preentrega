@@ -1,0 +1,132 @@
+
+.cont_div{box-sizing: border-box;
+    width: 1000px;
+    margin-left: 180px;
+    margin-top: 100px;
+    position: absolute;
+    text-align: center;
+
+
+    .cont_info{border-top: $line_border;
+        border-bottom: $line_border;}
+
+
+    .cont_info_dos{@extend .cont_info;
+         margin-top: 50px;}
+
+
+    .op{font-size: 20px;
+        margin-top: 30px;}
+
+
+}
+
+
+
+
+
+.cont_img{margin-top: 1000px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 380px;
+
+
+
+
+    .cont{@include sizes (600px, 600px);
+        border-radius: 50%;
+        margin-bottom: 50px;}
+        
+    .cont_text{display: none;
+    
+        .vid{box-sizing: content-box;
+            width: 100%;}
+    
+    }
+
+
+    .cont:first-child{background-image: url(https://medlineplus.gov/images/Wildfires_share.jpg);
+            background-size: cover;}
+    .cont:nth-child(2){background-image: url(https://ruminants.ceva.pro/hubfs/ganaderia-extensiva.jpg);
+             background-size: cover;}
+    .cont:nth-child(3){background-image: url(https://www.comoves.unam.mx/assets/revista/242/la-basura-en-su-lugar.jpg);
+             background-size: cover;}
+    .cont:nth-child(4){background-image: url(https://www.lavanguardia.com/files/og_thumbnail/uploads/2021/02/22/6034006c7dca6.jpeg);
+             background-size: cover;}
+    .cont:nth-child(5){background-image: url(https://www.seguroweb.com.ar/wp-content/uploads/bfi_thumb/Autos-algunas-soluciones-para-la-contaminaci%C3%B3n-del-aire-Portada-SeguridadNews-32pjt4u5p3gped1b3w426i.jpg);
+             background-size: cover;}
+    .cont:last-child{background-image: url(https://www.foronuclear.org/wp-content/uploads/2010/06/petroleo.jpg);
+           background-size: cover;}
+
+
+}
+
+
+
+
+
+
+.cont:first-child:hover{background-image:none;}
+.cont:nth-child(2):hover{background-image:none;}
+.cont:nth-child(3):hover{background-image:none;}
+.cont:nth-child(4):hover{background-image:none;}
+.cont:nth-child(5):hover{background-image:none;}
+.cont:last-child:hover{background-image:none;}
+
+
+.cont:hover > .cont_text{display: inline-block;
+                   background-color: #D5FDB3;
+                   margin-top: 100px;
+                   border-radius: 0%;
+                   box-sizing: content-box;
+                   
+}
+
+
+
+
+
+
+
+
+$vista:mobile;
+
+
+@if $vista == mobile {
+@media only screen and (max-width:1050px){.cont_img{margin-left: 200px;
+margin-top: 1280px;}}}
+
+
+
+@media only screen and (max-width:1200px){.cont_div{width:800px}  }
+@media only screen and (max-width:1050px){.cont_div{width:600px}  }
+@media only screen and (max-width:1200px){.cont_img{margin-left: 280px;
+                                              margin-top: 1050px;}}
+
+
+
+
+
+.footer_contamination{background-color: $footer-color;
+                      position: absolute;
+                      margin-top: 5000px;
+                      height: 50px;
+                      width: 100%;
+                      display: flex;
+                      justify-content: center;
+                    
+                    
+                      .footer_contamination_div{text-decoration: none;
+                        display: flex;
+                        color: #000000;
+                        font-size: 13px;
+                        width: 800px;}       
+                    
+                        
+                    }
+
+
+             
+                                           
+@media only screen and (min-height:808px){.footer_contamination{margin-top:5200px}}
+                                                                                        

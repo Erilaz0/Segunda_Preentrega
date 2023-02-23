@@ -1,0 +1,25 @@
+{
+  "name": "segunda-preentrega",
+  "version": "1.0.0",
+  "description": "no description",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erilaz0/Segunda_Preentrega.git"
+  },
+  "author": "Erilaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erilaz0/Segunda_Preentrega/issues"
+  },
+  "homepage": "https://github.com/Erilaz0/Segunda_Preentrega#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

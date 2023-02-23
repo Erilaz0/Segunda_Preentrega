@@ -1,0 +1,165 @@
+
+
+.title{text-align: center;
+    width: 800px;
+    height: 300px;
+    margin-left: 280px;
+    margin-top: 100px;
+    position: absolute;
+    
+      .rec_p{border-bottom: $line_border;}    
+}
+
+
+.grid_rec{display: grid;
+       grid-template-rows:($grid);
+       grid-template-columns: ($grid);
+       margin-left: 180px;
+       margin-top: 400px;
+       position: absolute;
+       width: 1000px;
+       height: 2000px;
+       grid-gap: 80px;
+       
+          .grid_item{border:$line_border;
+                     color: aqua;
+                     background-size: cover;
+    
+                        .met{display: none;}}
+       
+          .pilas_img{background-image: url(https://wastemagazine.es/fotos2/pilas-reciclado.jpg);}
+          .ropa_img{background-image: url(https://slowfashionnext.com/wp-content/uploads/2022/09/como_se_recicla_la_ropa_portada.jpg);}              
+          .plastico_img{background-image: url(https://www.anahuac.mx/mexico/sites/default/files/noticias/El-plastico-reciclado-eficiente-como-material-de-construccion.jpg);}
+          .vidrio_img{background-image: url(https://www.bbva.com/wp-content/uploads/2021/03/BBVA-reciclaje-vidrio-interior.jpg);}
+          .tapas_img{background-image: url(https://www.ucr.ac.cr/medios/fotos/2018/15bf5fcf50597d.jpg);}
+          .cigarro_img{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSRTnlma6tvNASjHaqC5zxOHhLJSo9xaCSA&usqp=CAU);}
+                      
+        
+        
+        
+        
+        }
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1238px){.grid_rec{margin-left: 120px;}}
+@media only screen and (max-width:1238px){.title{margin-left: 220px;}}
+
+@media only screen and (max-width:1160px){.grid_rec{margin-left: 80px;}}
+@media only screen and (max-width:1160px){.title{margin-left: 180px;}}
+
+@media only screen and (max-width:1100px){.grid_rec{margin-left: 0px;
+                                                 width: 100%;
+}}
+@media only screen and (max-width:1100px){.title{margin-left: 120px;}}
+/*pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilaspilas pilas pilas pilaspilas pilas pilas pilas*/
+
+
+.pilas_img{background-image: url(https://wastemagazine.es/fotos2/pilas-reciclado.jpg);}
+
+.pilas_img:hover{background-color: #D5FDB3;
+              background-image: none;
+              
+              
+}
+.pilas_img:hover > .met{display: inline;
+                     color: #000000;
+                     
+                     }
+
+/*pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilas pilaspilas pilas pilas pilaspilas pilas pilas pilas*/
+
+/* ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa */
+
+.ropa_img{background-image: url(https://slowfashionnext.com/wp-content/uploads/2022/09/como_se_recicla_la_ropa_portada.jpg);}
+
+.ropa_img:hover{background-color: #D5FDB3;
+             background-image: none;
+             }
+
+.ropa_img:hover > .met{display: inline;
+                    color: #000000;
+  }
+
+/* ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa ropa */
+
+/*plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico*/
+
+
+
+
+.plastico_img:hover{background-color: #D5FDB3;
+                 background-image: none;
+                 }
+
+
+.plastico_img:hover > .met{display: inline;
+                        color: #000000;}
+
+/*plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico plastico*/
+
+
+/*vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio*/
+
+
+
+
+.vidrio_img:hover{background-color: #D5FDB3;
+            background-image: none;
+            }
+
+
+.vidrio_img:hover > .met{display: inline;
+                   color: #000000;}
+
+
+
+/*vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio vidrio*/
+
+
+/* tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas */
+
+
+
+.tapas_img:hover{background-color: #D5FDB3;
+              background-image: none;
+              }
+
+
+.tapas_img:hover > .met{display: inline;
+                      color: #000000;}
+
+/* tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas tapas */
+
+/*cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro cigarro*/
+
+
+
+.cigarro_img:hover{background-color: #D5FDB3;
+                background-image: none;
+                }
+
+
+.cigarro_img:hover > .met{display: inline;
+                       color: #000000;}
+
+
+.footer_rec_cont{background-color: $footer-color;
+                        position: absolute;
+                        margin-top: 2365px;
+                        height: 50px;
+                        width: 100%;}
+           
+           
+.footer_rec li{text-decoration: none;
+                      display: inline-block;
+                      color: #000000;
+                      margin-left: 270px;
+                      font-size: 13px;
+                    }
+           

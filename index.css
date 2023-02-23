@@ -33,10 +33,7 @@ a{text-decoration: none;
   color: #D5FDB3;
 }
 
-.barra_div:hover > .nav_cont{margin-top: 38px;}
 
-
-.barra:hover{background-color: #7B7B7B;}
 
 .a{padding-right:26px ; padding-left: 3px;}
 .b{padding-right:62px ;padding-left:3px;}
@@ -52,8 +49,8 @@ a{text-decoration: none;
 
 }
 
-
-
+.barra:hover{background-color: #7B7B7B;}
+.barra_div:hover > .nav_cont{margin-top: 38px;}
 /*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*/
 
 
