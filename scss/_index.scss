@@ -1,8 +1,7 @@
 /**//**//*Energiás renovables*//*Energiás renovables*/
 .flex_container_er{display: flex;
                    flex-wrap: wrap;
-                   width: 100%;
-                   height: 100%;   
+                   @include sizes($all,$all);   
                    margin-bottom: 10%;
                 
 
@@ -11,22 +10,16 @@
 
 
        .flex_item_er{height: 600px;
-                     width: 100%;}
+                     width: $all;}
        
         .eo_txt{text-align: center;
                 height: 50%;
                 padding:5%;
     }
             
-       .sol_txt{text-align: center;
-                height: 50%;
-                padding:5%;
+       .sol_txt{@extend .eo_txt;
 }
 
-       .hid_txt{text-align: center;
-                height: 50%;
-                padding:5%;
-        
-}}
+       .hid_txt{@extend .eo_txt;}}
 /* termina Energiás renovables*//* termina Energiás renovables*//**//**/
 

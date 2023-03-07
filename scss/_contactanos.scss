@@ -3,7 +3,7 @@
     @include sizes (700px, 450px);
     background-color:#D5FDB3;
     margin-left: 30%;
-    margin-top: 15%;
+    margin-top: 10%;
     position: absolute;
     display: inline;
     border-radius: 3%;
@@ -12,17 +12,17 @@
  
     .form{margin-top: 40px;
        position: absolute;
-       height: 400px;
-       width: 100%;
+       @include sizes($all,400px);
+       
     
     
-       .form_input{width:50%;
+       .form_input{width:$all / 2;
           margin:17px;} 
 
        #inp{margin:5px;
         margin-left: 19px; 
         margin-top: 0px;   
-        width: 400px;}
+        width:$all;}
 
 
         /*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
@@ -35,7 +35,7 @@
 
        .pass{margin-top: 15px;}
 
-       .button{margin-top: 5px;}
+       .button{@extend .date;}
 
        /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
 
@@ -52,7 +52,7 @@
        .form_logo{position: absolute;
                   margin-left: 390px;
                   @include sizes(280px, 280px);
-                  border-radius: 50%;
+                  border-radius: $all / 2;
                   margin-top: 37px;}
                 
                 
@@ -69,7 +69,7 @@
     @include sizes (550px, 650px);
     background-color:#D5FDB3;
     margin-left:23%;
-    margin-top: 15%;
+    margin-top: 10%;
     position: absolute;
     display: inline;
     border-radius: 3%;
@@ -84,7 +84,7 @@
     
     
        
-          .form_input{width:100%;
+          .form_input{width:$all;
             display:inline-block;
             margin:17px;} 
 
@@ -162,7 +162,7 @@
     
     
        
-          .form_input{width:100%;
+          .form_input{width:$all;
             display:inline-block;
             margin:17px;} 
 
@@ -189,7 +189,7 @@
        /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
 
 
-       .form_button{width: 100px;
+       .form_button{width: $all;
                     margin-left: 44%;}
 
 
@@ -204,7 +204,7 @@
            .form_logo_dos{display: inline-block;
                           height: 43%;
                           width: 40%;
-                          border-radius: 50%;
+                          border-radius:$all / 2;
                           margin-top: 30px;
                           margin-left: 35%;
                        
@@ -238,7 +238,7 @@
                     
                     
                        
-                          .form_input{width:100%;
+                          .form_input{width:$all;
                             display:inline-block;
                             margin:17px;} 
                 
@@ -279,8 +279,8 @@
                                 
                            .form_logo_dos{display: inline-block;
                                           height: 43%;
-                                          width: 50%;
-                                          border-radius: 50%;
+                                          width: $all / 2;
+                                          border-radius: $all / 2;
                                           margin-top: 30px;
                                           margin-left: 35%;
                                        

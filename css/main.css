@@ -26,8 +26,8 @@ body {
     margin-top: -139px;
     margin-left: 20px;
     padding: 0%;
-    height: 120px;
     width: 170px;
+    height: 120px;
     transition-duration: 2s , 2s; }
     .barra_div .nav_cont a {
       text-decoration: none;
@@ -77,15 +77,7 @@ body {
   .flex_container_er .flex_item_er {
     height: 600px;
     width: 100%; }
-  .flex_container_er .eo_txt {
-    text-align: center;
-    height: 50%;
-    padding: 5%; }
-  .flex_container_er .sol_txt {
-    text-align: center;
-    height: 50%;
-    padding: 5%; }
-  .flex_container_er .hid_txt {
+  .flex_container_er .eo_txt, .flex_container_er .sol_txt, .flex_container_er .hid_txt {
     text-align: center;
     height: 50%;
     padding: 5%; }
@@ -102,8 +94,8 @@ body {
   box-sizing: border-box;
   padding: 10%;
   display: flex;
-  text-align: center;
-  flex-direction: column; }
+  flex-direction: column;
+  text-align: center; }
   .cont_div .cont_info, .cont_div .cont_info_dos {
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000; }
@@ -208,15 +200,18 @@ body {
     padding-bottom: 5%; }
     .natura .natura_text .green_p {
       border-left: 1px solid #000000;
-      padding-top: 7%; }
+      padding-top: 7%;
+      text-align: center; }
   .natura .green_text {
     padding-bottom: 8%; }
     .natura .green_text .green_p {
       border-left: 1px solid #000000;
-      padding-top: 7%; }
+      padding-top: 7%;
+      text-align: center; }
   .natura .wwf_text .green_p {
     border-left: 1px solid #000000;
-    padding-top: 7%; }
+    padding-top: 7%;
+    text-align: center; }
 
 /*Responsive org*/
 /*Responsive org*/
@@ -281,7 +276,7 @@ body {
   height: 450px;
   background-color: #D5FDB3;
   margin-left: 30%;
-  margin-top: 15%;
+  margin-top: 10%;
   position: absolute;
   display: inline;
   border-radius: 3%;
@@ -289,8 +284,8 @@ body {
   .form_cont .form {
     margin-top: 40px;
     position: absolute;
-    height: 400px;
     width: 100%;
+    height: 400px;
     /*input*/
     /*input*/
     /*input*/
@@ -326,15 +321,13 @@ body {
       margin: 5px;
       margin-left: 19px;
       margin-top: 0px;
-      width: 400px; }
-    .form_cont .form .date {
+      width: 100%; }
+    .form_cont .form .date, .form_cont .form .button {
       margin-top: 5px; }
     .form_cont .form .email {
       margin-top: 10px; }
     .form_cont .form .pass {
       margin-top: 15px; }
-    .form_cont .form .button {
-      margin-top: 5px; }
     .form_cont .form .form_button {
       width: 100px;
       margin-left: 125px; }
@@ -354,7 +347,7 @@ body {
     height: 650px;
     background-color: #D5FDB3;
     margin-left: 23%;
-    margin-top: 15%;
+    margin-top: 10%;
     position: absolute;
     display: inline;
     border-radius: 3%;
@@ -401,7 +394,7 @@ body {
         margin-left: 19px;
         margin-top: 0px;
         width: 400px; }
-      .form_cont .form .date {
+      .form_cont .form .date, .form_cont .form .button {
         margin-top: 5px; }
       .form_cont .form .email {
         margin-top: 10px; }
@@ -475,7 +468,7 @@ body {
         margin-left: 19px;
         margin-top: 0px;
         width: 400px; }
-      .form_cont .form .date {
+      .form_cont .form .date, .form_cont .form .button {
         margin-top: 5px; }
       .form_cont .form .email {
         margin-top: 10px; }
@@ -484,7 +477,7 @@ body {
       .form_cont .form .button {
         margin-top: 5px; }
       .form_cont .form .form_button {
-        width: 100px;
+        width: 100%;
         margin-left: 44%; }
       .form_cont .form .form_logo {
         display: none; }
@@ -549,7 +542,7 @@ body {
         margin-left: 19px;
         margin-top: 0px;
         width: 400px; }
-      .form_cont .form .date {
+      .form_cont .form .date, .form_cont .form .button {
         margin-top: 5px; }
       .form_cont .form .email {
         margin-top: 10px; }

@@ -11,7 +11,7 @@
          h1{align-self: center;}
          h3{align-self: center;}
          p{align-self: center;
-           width: 50%;
+           width:$all / 2;
            border-bottom:$line_border;
          }
 
@@ -33,6 +33,8 @@
      .natura_text{padding-bottom: 5%;
                 .green_p{border-left:$line_border;
                          padding-top:7%;
+                         text-align: center;
+                         
                 }
            }
                       
@@ -40,14 +42,18 @@
      .green_text{padding-bottom: 8%;
    
                 .green_p{border-left:$line_border;
-                         padding-top:7%;}
+                         padding-top:7%;
+                         text-align: center;
+                        }
            }
                                            
                            
       .wwf_text{
 
                 .green_p{border-left:$line_border;
-                         padding-top:7%;}
+                         padding-top:7%;
+                         text-align: center;
+                        }
            }      
          
          

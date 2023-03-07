@@ -3,12 +3,14 @@
 .cont_div{box-sizing: border-box;
           padding: 10%;
           display: flex;
-          text-align: center;
           flex-direction: column;
+          text-align: center;
 
 
     .cont_info{border-top: $line_border;
-               border-bottom: $line_border;}
+               border-bottom: $line_border;
+               
+            }
 
 
     .cont_info_dos{@extend .cont_info;
@@ -23,27 +25,25 @@
 
 .cont_img{display: flex;
           flex-direction: column;
-          width: 100%;
+          width: $all;
           padding-left: 20%;
           padding-right: 20%;
           text-align: center;
     
     
-    .general{width: 100%;
-             height: 100%;
+    .general{@include sizes($all,$all);
              margin-bottom: 20%;
         
        
       }
       .br70{border-bottom: 2px solid #000000;}
     
-      .img_cont{width: 100%;
-                height: 100%;
+      .img_cont{@include sizes($all,$all)
         
         
     }
     
-       .cont_text{width: 100%;
+       .cont_text{width:$all;
                   margin-top:5%;
                   margin-bottom:5%;
     
