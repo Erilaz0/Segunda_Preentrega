@@ -1,0 +1,294 @@
+/*pagina de contacto*//*pagina de contacto*//*pagina de contacto*//*pagina de contacto*//*pagina de contacto*//*pagina de contacto*/
+.form_cont{
+    @include sizes (700px, 450px);
+    background-color:#D5FDB3;
+    margin-left: 30%;
+    margin-top: 15%;
+    position: absolute;
+    display: inline;
+    border-radius: 3%;
+    border:$line_border;
+ 
+ 
+    .form{margin-top: 40px;
+       position: absolute;
+       height: 400px;
+       width: 100%;
+    
+    
+       .form_input{width:50%;
+          margin:17px;} 
+
+       #inp{margin:5px;
+        margin-left: 19px; 
+        margin-top: 0px;   
+        width: 400px;}
+
+
+        /*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+
+       .date{margin-top: 5px;}
+
+       .email{margin-top: 10px;}
+
+       .pass{margin-top: 15px;}
+
+       .button{margin-top: 5px;}
+
+       /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+       .form_button{width: 100px;
+           margin-left: 125px;}
+
+
+
+
+   
+
+
+       .form_logo{position: absolute;
+                  margin-left: 390px;
+                  @include sizes(280px, 280px);
+                  border-radius: 50%;
+                  margin-top: 37px;}
+                
+                
+        .form_logo_dos{display: none;}        
+                }}
+
+
+
+
+@media only screen and (max-width:1266px){
+  
+  
+  .form_cont{
+    @include sizes (550px, 650px);
+    background-color:#D5FDB3;
+    margin-left:23%;
+    margin-top: 15%;
+    position: absolute;
+    display: inline;
+    border-radius: 3%;
+    border:$line_border;
+   
+ 
+ 
+    .form{margin-top: 40px;
+       position: absolute;
+       height: 400px;
+       width: 90%;
+    
+    
+       
+          .form_input{width:100%;
+            display:inline-block;
+            margin:17px;} 
+
+        
+
+       #inp{margin:5px;
+        margin-left: 19px; 
+        margin-top: 0px;   
+        width: 400px;}
+
+
+        /*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+
+       .date{margin-top: 5px;}
+
+       .email{margin-top: 10px;}
+
+       .pass{margin-top: 15px;}
+
+       .button{margin-top: 5px;}
+
+       /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+       .form_button{width: 100px;
+           margin-left: 44%;}
+
+
+
+
+   
+
+
+           .form_logo{display: none;}
+                
+                
+           .form_logo_dos{display: inline-block;
+                          height: 43%;
+                          width: 40%;
+                          border-radius: 50%;
+                          margin-top: 30px;
+                          margin-left: 35%;
+                       
+        }        
+                }}}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+@media only screen and (max-width:831px){
+
+  .form_cont{
+    @include sizes (450px, 650px);
+    background-color:#D5FDB3;
+    margin-left:22%;
+    margin-top: 15%;
+    position: absolute;
+    display: inline;
+    border-radius: 3%;
+    border:$line_border;
+   
+ 
+ 
+    .form{margin-top: 40px;
+       position: absolute;
+       height: 400px;
+       width: 90%;
+    
+    
+       
+          .form_input{width:100%;
+            display:inline-block;
+            margin:17px;} 
+
+        
+
+       #inp{margin:5px;
+        margin-left: 19px; 
+        margin-top: 0px;   
+        width: 400px;}
+
+
+        /*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+
+       .date{margin-top: 5px;}
+
+       .email{margin-top: 10px;}
+
+       .pass{margin-top: 15px;}
+
+       .button{margin-top: 5px;}
+
+       /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+
+
+       .form_button{width: 100px;
+                    margin-left: 44%;}
+
+
+
+
+   
+
+
+           .form_logo{display: none;}
+                
+                
+           .form_logo_dos{display: inline-block;
+                          height: 43%;
+                          width: 40%;
+                          border-radius: 50%;
+                          margin-top: 30px;
+                          margin-left: 35%;
+                       
+        }        
+                }}}
+  
+
+
+
+
+
+  
+@media only screen and (max-width:700px){
+
+                  .form_cont{
+                    @include sizes (350px, 650px);
+                    background-color:#D5FDB3;
+                    margin-left:20%;
+                    margin-top: 15%;
+                    position: absolute;
+                    display: inline;
+                    border-radius: 3%;
+                    border:$line_border;
+                   
+                 
+                 
+                    .form{margin-top: 40px;
+                       position: absolute;
+                       height: 400px;
+                       width: 90%;
+                    
+                    
+                       
+                          .form_input{width:100%;
+                            display:inline-block;
+                            margin:17px;} 
+                
+                        
+                
+                       #inp{margin:5px;
+                        margin-left: 19px; 
+                        margin-top: 0px;   
+                        width: 400px;}
+                
+                
+                        /*input*/ /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+                
+                
+                
+                       .date{margin-top: 5px;}
+                
+                       .email{margin-top: 10px;}
+                
+                       .pass{margin-top: 15px;}
+                
+                       .button{margin-top: 5px;}
+                
+                       /*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*//*input*/
+                
+                
+                       .form_button{width: 100px;
+                           margin-left: 44%;}
+                
+                
+                
+                
+                   
+                
+                
+                           .form_logo{display: none;}
+                                
+                                
+                           .form_logo_dos{display: inline-block;
+                                          height: 43%;
+                                          width: 50%;
+                                          border-radius: 50%;
+                                          margin-top: 30px;
+                                          margin-left: 35%;
+                                       
+                        }        
+                                }}}
+                  
+/*Termina Pagina De Contacto*//*Termina Pagina De Contacto*//*Termina Pagina De Contacto*//**//**/
+
+
+  
+  

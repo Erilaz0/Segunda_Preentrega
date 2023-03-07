@@ -1,0 +1,44 @@
+
+
+/*reciclaje*//*reciclaje*//*reciclaje*//*reciclaje*//*reciclaje*//*reciclaje*//*reciclaje*//*reciclaje*/
+
+.title{text-align: center;
+       width: 70%;
+       height: 20%;
+       padding-left: 30%;
+       padding-top: 10%;
+    
+    
+      .rec_p{border: $line_border;}    
+}
+
+
+
+
+.grid_rec{display: grid;
+          padding: 10%;
+          grid-template-columns: repeat(1,fr);
+          width: 100%;
+          height: 100%;
+          text-align: center;
+       
+       
+       
+       
+          .grid_item{border:$line_border;
+                     width: 100% ;
+                     height: 300px;
+                     
+    
+          }
+       
+          .met{padding-bottom: 10%;
+               padding-top: 5%;}
+                      
+          h1{border-bottom: 1px solid #000000;}
+        
+        
+        
+        }
+/*Termina Metodos de reciclaje*//*Termina Metodos de reciclaje*//*Termina Metodos de reciclaje*//**//**/
+
