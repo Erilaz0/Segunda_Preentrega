@@ -6,21 +6,12 @@
           flex-direction: column;
           text-align: center;
 
-
-    .cont_info{border-top: $line_border;
-               border-bottom: $line_border;
-               
-            }
+             .cont_info{border-top: $line_border;
+                        border-bottom: $line_border;}
 
 
-    .cont_info_dos{@extend .cont_info;
-                   margin-top: 50px;}
-
-
-    
-
-
-}
+             .cont_info_dos{@extend .cont_info;
+                            margin-top: 50px;}}
 
 
 .cont_img{display: flex;
@@ -31,26 +22,16 @@
           text-align: center;
     
     
-    .general{@include sizes($all,$all);
-             margin-bottom: 20%;
-        
-       
-      }
-      .br70{border-bottom: 2px solid #000000;}
+            .general{@include sizes($all,$all);
+                     margin-bottom: 20%;}
+     
+            .br70{border-bottom: 2px solid #000000;}
     
-      .img_cont{@include sizes($all,$all)
-        
-        
-    }
+            .img_cont{@include sizes($all,$all);}
     
-       .cont_text{width:$all;
+            .cont_text{width:$all;
                   margin-top:5%;
-                  margin-bottom:5%;
-    
-    }
-    
-
-}
+                  margin-bottom:5%;}}
 
 
 /*Termina Contaminacion*//*Termina Contaminacion*//*Termina Contaminacion*//**//**/

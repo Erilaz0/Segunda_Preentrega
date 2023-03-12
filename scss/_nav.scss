@@ -1,57 +1,107 @@
 /**//**//*Barra de Navegacion*//*Barra de Navegacion*//*Barra de Navegacion*/
 .barra_div{padding: 0;
            @include sizes($all,38px);
-           background-color: #4A4949;
+           background-image: url(../imagenes/amazonas.png);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position-y: center;
+           height: 180px;
+           
+           
+           
+
+           .nav_cont_five{display: flex;
+                          justify-content: center;
+                          padding-top: 90px;
+                         
+                          
+                          
+         
+                  li{list-style: none;}
+                 
+                  a{text-decoration: none;
+                    color: #0E8300;}
+                 
+                    .op{padding: 10px;
+                      margin: 40px;
+                      background-color: #DAF7C4;}}
+                 
+                      .op:hover{padding: 15px;
+                               background-color: #A6E19F;
+}
+                           .nav_cont{display: none;}
+                                .barra{display: none ;}}
+
+
+.icono{display: none;}
+
+@media only screen and(max-width:1200px){
+   
+  
+   .barra_div{padding: 0;
+              @include sizes($all,38px);
+              background-image: url(../imagenes/amazonas.png);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position-y: center;
+              height: 180px;
+
+            .nav_cont_five{display:none;
+      
+            .op{display: none;}}
+      
+      
+   .icono{display: inline;
+         @include sizes(40px, 40px);
+         margin-left:25px;
+         margin-top:40px;} 
     
     
-
-
-    .nav_cont{list-style: none;
-              position: absolute;     
-              z-index:1;
-              background-color: #696868;
-              margin-top: -139px;
-              margin-left: 20px;
-              padding: 0%;
-              @include sizes(170px,120px);
-              transition-duration: 2s , 2s;
-
+         .nav_cont{display: inline;
+                   list-style: none;
+                   position: absolute;     
+                   z-index:1;
+                   background-color: #DAF7C4;
+                   margin-left: -400px;
+                   padding: 0%;
+                   @include sizes(250px,181px);
+                   transition-duration: 1s , 2s;
 
 
 
-             a{text-decoration: none;
-               color: #D5FDB3;}
+             .barra{display: inline;}
+               a{text-decoration: none;
+                 color: #0E8300;
+                 font-size: 23px;}
             
             
             
-            .a{padding-right:26px;
+            .a{padding-right:54%;
                padding-left: $padding_nav;}
            
-            .b{padding-right:62px;
+            .b{padding-right:39%;
                padding-left:$padding_nav;}
            
-            .c{padding-right:110px;
+            .c{padding-right:66%;
                padding-left:$padding_nav;}
             
-            .d{padding-right:142px;
+            .d{padding-right:82.9%;
                padding-left:$padding_nav;}
            
-            .e{padding-right:81px;
-               padding-left:$padding_nav;}
-
-
-
-
-    }
+            .e{padding-right:49.7%;
+               padding-bottom: 10px;
+               padding-left:$padding_nav;}}
     
 
-    .icono{@include sizes(20px, 20px);
-           margin-left:25px;
-           margin-top:6px;}
+    
 
 
 
 
+          
+}
+.barra:hover{background-color: #A6E19F;}
+.barra_div:hover > .nav_cont{margin-left: 0px;}
 }
 
 
@@ -61,7 +111,9 @@
 
 
 
-.barra:hover{background-color: #7B7B7B;}
-.barra_div:hover > .nav_cont{margin-top: 38px;}
+
+
+
+   
 
 /*Termina Barra de Navegacion*//*Termina Barra de Navegacion*//*Termina Barra de Navegacion*//**//**/

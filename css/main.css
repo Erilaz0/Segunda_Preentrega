@@ -17,47 +17,92 @@ body {
   padding: 0;
   width: 100%;
   height: 38px;
-  background-color: #4A4949; }
-  .barra_div .nav_cont {
-    list-style: none;
-    position: absolute;
-    z-index: 1;
-    background-color: #696868;
-    margin-top: -139px;
-    margin-left: 20px;
-    padding: 0%;
-    width: 170px;
-    height: 120px;
-    transition-duration: 2s , 2s; }
-    .barra_div .nav_cont a {
+  background-image: url(../imagenes/amazonas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 180px; }
+  .barra_div .nav_cont_five {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px; }
+    .barra_div .nav_cont_five li {
+      list-style: none; }
+    .barra_div .nav_cont_five a {
       text-decoration: none;
-      color: #D5FDB3; }
-    .barra_div .nav_cont .a {
-      padding-right: 26px;
-      padding-left: 3px; }
-    .barra_div .nav_cont .b {
-      padding-right: 62px;
-      padding-left: 3px; }
-    .barra_div .nav_cont .c {
-      padding-right: 110px;
-      padding-left: 3px; }
-    .barra_div .nav_cont .d {
-      padding-right: 142px;
-      padding-left: 3px; }
-    .barra_div .nav_cont .e {
-      padding-right: 81px;
-      padding-left: 3px; }
-  .barra_div .icono {
-    width: 20px;
-    height: 20px;
-    margin-left: 25px;
-    margin-top: 6px; }
+      color: #0E8300; }
+    .barra_div .nav_cont_five .op {
+      padding: 10px;
+      margin: 40px;
+      background-color: #DAF7C4; }
+  .barra_div .op:hover {
+    padding: 15px;
+    background-color: #A6E19F; }
+  .barra_div .nav_cont {
+    display: none; }
+  .barra_div .barra {
+    display: none; }
 
-.barra:hover {
-  background-color: #7B7B7B; }
+.icono {
+  display: none; }
 
-.barra_div:hover > .nav_cont {
-  margin-top: 38px; }
+@media only screen and (max-width: 1200px) {
+  .barra_div {
+    padding: 0;
+    width: 100%;
+    height: 38px;
+    background-image: url(../imagenes/amazonas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 180px; }
+    .barra_div .nav_cont_five {
+      display: none; }
+      .barra_div .nav_cont_five .op {
+        display: none; }
+    .barra_div .icono {
+      display: inline;
+      width: 40px;
+      height: 40px;
+      margin-left: 25px;
+      margin-top: 40px; }
+    .barra_div .nav_cont {
+      display: inline;
+      list-style: none;
+      position: absolute;
+      z-index: 1;
+      background-color: #DAF7C4;
+      margin-left: -400px;
+      padding: 0%;
+      width: 250px;
+      height: 181px;
+      transition-duration: 1s , 2s; }
+      .barra_div .nav_cont .barra {
+        display: inline; }
+      .barra_div .nav_cont a {
+        text-decoration: none;
+        color: #0E8300;
+        font-size: 23px; }
+      .barra_div .nav_cont .a {
+        padding-right: 54%;
+        padding-left: 3px; }
+      .barra_div .nav_cont .b {
+        padding-right: 39%;
+        padding-left: 3px; }
+      .barra_div .nav_cont .c {
+        padding-right: 66%;
+        padding-left: 3px; }
+      .barra_div .nav_cont .d {
+        padding-right: 82.9%;
+        padding-left: 3px; }
+      .barra_div .nav_cont .e {
+        padding-right: 49.7%;
+        padding-bottom: 10px;
+        padding-left: 3px; }
+  .barra:hover {
+    background-color: #A6E19F; }
+  .barra_div:hover > .nav_cont {
+    margin-left: 0px; } }
 
 /*Termina Barra de Navegacion*/
 /*Termina Barra de Navegacion*/
@@ -75,8 +120,8 @@ body {
   height: 100%;
   margin-bottom: 10%; }
   .flex_container_er .flex_item_er {
-    height: 600px;
-    width: 100%; }
+    width: 100%;
+    height: 600px; }
   .flex_container_er .eo_txt, .flex_container_er .sol_txt, .flex_container_er .hid_txt {
     text-align: center;
     height: 50%;
@@ -199,18 +244,18 @@ body {
   .natura .natura_text {
     padding-bottom: 5%; }
     .natura .natura_text .green_p {
-      border-left: 1px solid #000000;
       padding-top: 7%;
+      border-left: 1px solid #000000;
       text-align: center; }
   .natura .green_text {
     padding-bottom: 8%; }
     .natura .green_text .green_p {
-      border-left: 1px solid #000000;
       padding-top: 7%;
+      border-left: 1px solid #000000;
       text-align: center; }
   .natura .wwf_text .green_p {
-    border-left: 1px solid #000000;
     padding-top: 7%;
+    border-left: 1px solid #000000;
     text-align: center; }
 
 /*Responsive org*/
@@ -276,14 +321,11 @@ body {
   height: 450px;
   background-color: #D5FDB3;
   margin-left: 30%;
-  margin-top: 10%;
-  position: absolute;
-  display: inline;
+  margin-top: 7%;
   border-radius: 3%;
   border: 1px solid #000000; }
   .form_cont .form {
     margin-top: 40px;
-    position: absolute;
     width: 100%;
     height: 400px;
     /*input*/
@@ -317,7 +359,7 @@ body {
     .form_cont .form .form_input {
       width: 50%;
       margin: 17px; }
-    .form_cont .form #inp {
+    .form_cont .form .inp {
       margin: 5px;
       margin-left: 19px;
       margin-top: 0px;
@@ -348,15 +390,13 @@ body {
     background-color: #D5FDB3;
     margin-left: 23%;
     margin-top: 10%;
-    position: absolute;
-    display: inline;
+    margin-bottom: 100px;
     border-radius: 3%;
     border: 1px solid #000000; }
     .form_cont .form {
       margin-top: 40px;
-      position: absolute;
-      height: 400px;
       width: 90%;
+      height: 400px;
       /*input*/
       /*input*/
       /*input*/
@@ -389,7 +429,7 @@ body {
         width: 100%;
         display: inline-block;
         margin: 17px; }
-      .form_cont .form #inp {
+      .form_cont .form .inp {
         margin: 5px;
         margin-left: 19px;
         margin-top: 0px;
@@ -404,7 +444,7 @@ body {
         margin-top: 5px; }
       .form_cont .form .form_button {
         width: 100px;
-        margin-left: 44%; }
+        margin-left: 50%; }
       .form_cont .form .form_logo {
         display: none; }
       .form_cont .form .form_logo_dos {
@@ -422,13 +462,10 @@ body {
     background-color: #D5FDB3;
     margin-left: 22%;
     margin-top: 15%;
-    position: absolute;
-    display: inline;
     border-radius: 3%;
     border: 1px solid #000000; }
     .form_cont .form {
       margin-top: 40px;
-      position: absolute;
       height: 400px;
       width: 90%;
       /*input*/
@@ -463,7 +500,7 @@ body {
         width: 100%;
         display: inline-block;
         margin: 17px; }
-      .form_cont .form #inp {
+      .form_cont .form .inp {
         margin: 5px;
         margin-left: 19px;
         margin-top: 0px;
@@ -478,33 +515,30 @@ body {
         margin-top: 5px; }
       .form_cont .form .form_button {
         width: 20%;
-        margin-left: 44%; }
+        margin-left: 43%; }
       .form_cont .form .form_logo {
         display: none; }
       .form_cont .form .form_logo_dos {
         display: inline-block;
+        width: 50%;
         height: 43%;
-        width: 40%;
         border-radius: 50%;
         margin-top: 30px;
-        margin-left: 35%; } }
+        margin-left: 33%; } }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 740px) {
   .form_cont {
     width: 350px;
     height: 650px;
     background-color: #D5FDB3;
     margin-left: 20%;
     margin-top: 15%;
-    position: absolute;
-    display: inline;
     border-radius: 3%;
     border: 1px solid #000000; }
     .form_cont .form {
       margin-top: 40px;
-      position: absolute;
-      height: 400px;
       width: 90%;
+      height: 400px;
       /*input*/
       /*input*/
       /*input*/
@@ -537,7 +571,7 @@ body {
         width: 100%;
         display: inline-block;
         margin: 17px; }
-      .form_cont .form #inp {
+      .form_cont .form .inp {
         margin: 5px;
         margin-left: 19px;
         margin-top: 0px;
@@ -552,16 +586,214 @@ body {
         margin-top: 5px; }
       .form_cont .form .form_button {
         width: 100px;
-        margin-left: 43%; }
+        margin-left: 28%; }
       .form_cont .form .form_logo {
         display: none; }
       .form_cont .form .form_logo_dos {
         display: inline-block;
-        height: 43%;
         width: 58%;
+        height: 43%;
         border-radius: 50%;
         margin-top: 30px;
         margin-left: 30%; } }
+
+@media only screen and (max-width: 520px) {
+  .form_cont {
+    width: 70%;
+    height: 460px;
+    background-color: #D5FDB3;
+    border-radius: 3%;
+    border: 1px solid #000000;
+    margin-bottom: 100px; }
+    .form_cont .form {
+      margin-top: 40px;
+      width: 90%;
+      height: 400px;
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/ }
+      .form_cont .form .form_input {
+        width: 100%;
+        display: inline-block;
+        margin: 17px; }
+      .form_cont .form .inp {
+        margin: 5px;
+        margin-left: 19px;
+        margin-top: 0px;
+        width: 80%; }
+      .form_cont .form .date, .form_cont .form .button {
+        margin-top: 5px; }
+      .form_cont .form .email {
+        margin-top: 10px; }
+      .form_cont .form .pass {
+        margin-top: 15px; }
+      .form_cont .form .button {
+        margin-top: 5px; }
+      .form_cont .form .form_button {
+        width: 100px;
+        margin-left: 32%; }
+      .form_cont .form .form_logo {
+        display: none; }
+      .form_cont .form .form_logo_dos {
+        display: none; } }
+
+@media only screen and (max-width: 300px) {
+  .form_cont {
+    width: 70%;
+    height: 450px;
+    background-color: #D5FDB3;
+    margin-left: 20%;
+    margin-top: 15%;
+    border-radius: 3%;
+    border: 1px solid #000000; }
+    .form_cont .form {
+      margin-top: 40px;
+      width: 90%;
+      height: 400px;
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/ }
+      .form_cont .form .form_input {
+        width: 100%;
+        display: inline-block;
+        margin: 17px;
+        margin-left: 5px; }
+      .form_cont .form .inp {
+        margin: 5px;
+        margin-left: 19px;
+        margin-top: 0px;
+        width: 400px; }
+      .form_cont .form .date, .form_cont .form .button {
+        margin-top: 5px; }
+      .form_cont .form .email {
+        margin-top: 10px; }
+      .form_cont .form .pass {
+        margin-top: 15px; }
+      .form_cont .form .button {
+        margin-top: 5px; }
+      .form_cont .form .form_button {
+        width: 100px;
+        margin-left: 8%; }
+      .form_cont .form .form_logo {
+        display: none; }
+      .form_cont .form .form_logo_dos {
+        display: none; } }
+
+@media only screen and (max-width: 280px) {
+  .form_cont {
+    width: 70%;
+    height: 530px;
+    background-color: #D5FDB3;
+    border-radius: 3%;
+    border: 1px solid #000000;
+    margin-bottom: 100px; }
+    .form_cont .form {
+      margin-top: 40px;
+      width: 90%;
+      height: 400px;
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/
+      /*input*/ }
+      .form_cont .form .form_input {
+        width: 100%;
+        display: inline-block;
+        margin: 17px;
+        margin-left: 5%; }
+      .form_cont .form .inp {
+        margin: 5px;
+        margin-left: 19px;
+        margin-top: 0px;
+        width: 80%; }
+      .form_cont .form .date, .form_cont .form .button {
+        margin-top: 5px; }
+      .form_cont .form .email {
+        margin-top: 10px; }
+      .form_cont .form .pass {
+        margin-top: 15px; }
+      .form_cont .form .button {
+        margin-top: 5px; }
+      .form_cont .form .form_button {
+        width: 70%;
+        margin-left: 15%; }
+      .form_cont .form .form_logo {
+        display: none; }
+      .form_cont .form .form_logo_dos {
+        display: none; } }
 
 /*Termina Pagina De Contacto*/
 /*Termina Pagina De Contacto*/
@@ -576,11 +808,12 @@ body {
 /*footer*/
 /*footer*/
 footer {
-  background-color: #445;
+  background-color: #E7FFE7;
   width: 100%;
   height: 50px;
   position: fixed;
-  bottom: 0; }
+  bottom: 0;
+  z-index: 2; }
   footer .footer_div {
     width: 100%;
     display: flex;
@@ -592,7 +825,7 @@ footer {
     text-decoration: none; }
     footer .footer_div li a {
       text-decoration: none;
-      color: beige; }
+      color: #0E8300; }
 
 /*termina Footer*/
 /*termina Footer*/

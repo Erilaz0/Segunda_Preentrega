@@ -1,8 +1,9 @@
 /*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*/
-footer{background-color: #445;
+footer{background-color: #E7FFE7;
        @include sizes($all,50px);
        position: fixed;
        bottom: 0;
+       z-index: 2;
        
        
           .footer_div{width: $all;
@@ -15,6 +16,6 @@ footer{background-color: #445;
                                      text-decoration: none;
                                       
                                           a{text-decoration: none;
-                                            color: beige;}}}
+                                            color: #0E8300;}}}
 /*termina Footer*//*termina Footer*//*termina Footer*//*termina Footer*/
 

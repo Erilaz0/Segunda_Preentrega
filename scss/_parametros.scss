@@ -1,6 +1,16 @@
 @mixin sizes($width, $height){
-
     width:$width;
-    height:$height;
+    height:$height;}
 
-}
+@mixin green($pad, $bor-1, $text){
+    padding-top:$pad;
+    border-left:$bor-1;
+    text-align:$text}
+
+@mixin green_02($b-l, $b-t){
+    border-left:$b-l;
+    border-top:$b-t;} 
+
+
+
+

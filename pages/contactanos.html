@@ -1,72 +1,114 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 <head>
-<title>Contactanos</title>
-<meta charset="utf-8">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="../css/main.css">
-<meta name="description" content="Contactanos para saber de que otras maneras puedes contribuir con esta causa">
+ <title>Contactanos</title>
+ <meta charset="utf-8">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="../css/main.css">
+ <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+ <meta name="description" content="Contactanos para saber de que otras maneras puedes contribuir con esta causa">
 </head>
 
 
 <body>
-<header >
+  <header >
     <nav class="barra_div">
-         <ul class="nav_cont"> 
-              <li><a class="barra a" href="../index.html">energias renovables</a></li>
-              <li><a class="barra b" href="contaminacion.html">contaminacion</a></li>
-              <li><a class="barra c" href="metodos de reciclaje.html">reciclaje</a></li>
-              <li><a class="barra d" href="org.html">org</a></li>
-              <li><a class="barra e" href="contactanos.html">contactanos</a></li>
-          </ul>
-          <img class="icono" src="https://cdn-icons-png.flaticon.com/512/58/58497.png">  
+      <ul class="nav_cont_five"> 
+        <li>
+          <a class="op" href="../index.html">
+             ecoenergia
+          </a>
+        </li>
+        <li>
+          <a class="op" href="contaminacion.html">
+             contaminacion
+          </a>
+        </li>
+        <li>
+           <a class="op" href="metodos de reciclaje.html">
+             reciclaje
+           </a>
+        </li>
+        <li>
+           <a class="op" href="org.html">
+             ong
+           </a>
+        </li>
+        <li>
+          <a class="op" href="contactanos.html">
+             contactanos
+          </a>
+        </li>
+     </ul>
+      <ul class="nav_cont"> 
+          <li>
+            <a class="barra a" href="../index.html">
+               ecoenergia
+            </a>
+          </li>
+          <li>
+            <a class="barra b" href="contaminacion.html">
+               contaminacion
+            </a>
+          </li>
+          <li>
+             <a class="barra c" href="metodos de reciclaje.html">
+               reciclaje
+             </a>
+          </li>
+          <li>
+             <a class="barra d" href="org.html">
+               ong
+             </a>
+          </li>
+          <li>
+            <a class="barra e" href="contactanos.html">
+               contactanos
+            </a>
+          </li>
+       </ul>
+       <img class="icono" src="https://cdn-icons-png.flaticon.com/512/58/58497.png">  
     </nav>
 </header>
+	
+
 
 <div class="form_cont">
-
-    <form class="form">
-    	
-        <img class="form_logo" alt="rio" src="../imagenes/rio.gif">
-
-    
-    	  <label id="inp">Nombre Completo:</label><br>
-        <input class="form_input text" type="texto" placeholder="Nombre Completo"><br>
-      
-        
-        <label id="inp">Fecha de Nacimiento</label><br>
-        <input class="form_input date" type="date" placeholder="Fecha de Nacimiento"><br>
-        
-        
-        
-        <label id="inp">Ingrese su Email:</label><br>
-        <input class="form_input email" type="email" placeholder="Email"><br>
-        
-        
-       
-        <label id="inp">Ingrese una contraseña:</label><br>
-        <input class="form_input pass" type="password" placeholder="Contraseña">
-         
-        
-        <div class="inp">
-        <input class="form_button button" type="submit" value="Enviar">
-        </div>
-        
-        <img class="form_logo_dos" alt="rio" src="../imagenes/rio.gif">
-       
-       
-   
+    <form method="get" enctype="multipart/form-data" action="#" class="form">
+    	 <img class="form_logo" alt="rio" src="../imagenes/rio.gif">
+       <label for="formulario" class="inp">Nombre Completo:</label>
+          <input class="form_input text" type="texto" id="formulario" name="input-Nombre" placeholder="Nombre Completo">
+       <label for="formulario" class="inp">Fecha de Nacimiento</label>
+          <input class="form_input date" type="date" id="formulario" name="input-Fecha" placeholder="Fecha de Nacimiento">
+       <label for="formulario" class="inp">Ingrese su Email:</label>
+          <input class="form_input email" type="email" id="formulario" name="input-Email" placeholder="Email">
+       <label for="formulario" class="inp">Ingrese una contraseña:</label>
+          <input class="form_input pass" type="password" id="formulario" name="input-contraseña" placeholder="Contraseña">
+       <div class="inp">
+          <input class="form_button button" type="submit" name="input-boton" value="Enviar">
+       </div>
+       <img class="form_logo_dos" alt="rio" src="../imagenes/rio.gif">
     </form>
-
-
 </div>
 
 <footer>
   <ul class="footer_div">
-    <li><a href="https://www.worldwildlife.org/">WWF</a></li>
-    <li><a href="https://es.greenpeace.org/es/">Green Peace</a></li>
-    <li><a href="https://natura.org.co/">Natura</a></li>
+    <li>
+      <a href="https://www.worldwildlife.org/">
+         WWF
+      </a>
+    </li>
+    <li>
+      <a href="https://es.greenpeace.org/es/">
+        Green Peace
+      </a>
+    </li>
+    <li>
+      <a href="https://natura.org.co/">
+        Natura
+      </a>
+    </li>
   </ul>
 </footer>
 

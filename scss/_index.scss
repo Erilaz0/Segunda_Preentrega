@@ -9,17 +9,13 @@
     
 
 
-       .flex_item_er{height: 600px;
-                     width: $all;}
-       
-        .eo_txt{text-align: center;
-                height: 50%;
-                padding:5%;
-    }
+       .flex_item_er{@include sizes($all, 600px)}
+              .eo_txt{text-align: center;
+                      height: $all/2;
+                      padding:5%;}
             
-       .sol_txt{@extend .eo_txt;
-}
+              .sol_txt{@extend .eo_txt;}
 
-       .hid_txt{@extend .eo_txt;}}
+              .hid_txt{@extend .eo_txt;}}
 /* termina Energiás renovables*//* termina Energiás renovables*//**//**/
 
